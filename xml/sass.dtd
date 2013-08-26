@@ -1,0 +1,29 @@
+<!ELEMENT sass (intro, compAreas)>
+   <!ELEMENT intro (program, version, subversion, commentary, author, supervisorkey)>
+     <!ELEMENT program (#PCDATA)>
+	 <!ELEMENT version (#PCDATA)>
+	 <!ELEMENT subversion (#PCDATA)>
+	 <!ELEMENT commentary (#PCDATA)>
+	 <!ELEMENT author (#PCDATA)>
+	 <!ELEMENT supervisorkey (#PCDATA)>
+   <!ELEMENT compAreas (compArea*)>
+   <!ELEMENT compArea (compAreaTitle, compAreaCaption, comps)>
+     <!ELEMENT compAreaTitle (#PCDATA)>
+	 <!ELEMENT compAreaCaption (#PCDATA)>
+	 <!ELEMENT comps (comp*)>
+	   <!ELEMENT comp (compTitle, compCaption, items)>
+	     <!ELEMENT compTitle (#PCDATA)>
+	     <!ELEMENT compCaption (BSc, MSc)>
+	       <!ELEMENT BSc (#PCDATA)>
+		   <!ELEMENT MSc (#PCDATA)>
+		 <!ELEMENT items (item*)>
+	       <!ELEMENT item (itemTitle, itemCaption, itemLevels, itemProofs)>
+	         <!ELEMENT itemLevels (itemLevel*)>
+		       <!ATTLIST itemLevels caption CDATA #REQUIRED>
+		     <!ELEMENT itemProofs (itemProof*)>
+		       <!ATTLIST itemProofs caption CDATA #REQUIRED>
+		     <!ELEMENT itemTitle (#PCDATA)>
+		     <!ELEMENT itemCaption (#PCDATA)>
+	         <!ELEMENT itemLevel (#PCDATA)>
+	         <!ELEMENT itemProof (#PCDATA)>
+			 

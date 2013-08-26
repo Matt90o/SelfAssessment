@@ -1,0 +1,1435 @@
+<?xml version="1.0"?>
+<!DOCTYPE sass SYSTEM "http://www.keesvanoverveld.com/hidden/sass.dtd?v=11">
+<sass>
+	<intro>
+		<program>MSc_Fusion_Science</program>
+		<version>1</version>
+		<supervisorkey>5c5fd5049a1b9cdc36c2b63b47b4c4f7</supervisorkey>
+		<subversion>0</subversion>
+		<commentary>Ruimte voor commentaar</commentary>
+		<author>kvo</author>
+	</intro>
+	<compAreas>
+		<compArea>
+			<compAreaTitle>Disciplinary Knowledge</compAreaTitle>
+			<compAreaCaption>I. This section addresses your level of disciplinary knowledge.</compAreaCaption>
+			<comps>
+				<comp>
+					<compTitle>Knowledge Base</compTitle>
+					<compCaption>
+						<BSc>Understands the knowledge base of the relevant fields (theories, methods, techniques)</BSc>
+						<MSc>Has a thorough mastery of parts of the relevant fields extending to the forefront of knowledge (latest theorems, methods, techniques and topical questions).</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>A1. Knowledge of the theory of MHD</itemTitle>
+							<itemCaption>Knowledge of the theory of MHD refers to a body of generally accepted insights. Theoretical knowledge in general describes how the central concepts of a discipline are interrelated. It relates to the state-of-the-art knowledge within a scientific discipline.</itemCaption>
+							<itemLevels caption="Which of the following describes best your level of theoretical knowledge of MHD?">
+								<itemLevel>I possess no such level of knowledge</itemLevel>
+								<itemLevel>I have heard of some of the concepts of MHD, more in particular flux surfaces, conservation laws, instabilities,  and their interrelations</itemLevel>
+								<itemLevel>I recall the above concepts of MHD, and how they are interrelated in terms of laws, interactions, measurements and/or interventions</itemLevel>
+								<itemLevel>I can apply theoretical knowledge on MHD to conventional problems in the discipline, such as the pen-and-paper assignments in any introductory (although not non-popularized) text on MHD</itemLevel>
+								<itemLevel>I can apply theoretical knowledge on MHD to problems in the discipline that are currently under active research, such as sawteeth, neoclassical tearing modes, beta limit.</itemLevel>
+								<itemLevel>I can revise some concepts of the theory of MHD and / or their interrelations to fulfil a need such as advanced operating scenario?s, resisitive MHD</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve this level of theoretical knowledge of MHD?">
+								<itemProof>I have trained applying theoretical knowledge on MHD to practical problems such as pressure balance,heat transport</itemProof>
+								<itemProof>I have trained applying theoretical knowledge on MHD to textbook problems of textbooks such as Freidberg</itemProof>
+								<itemProof>I reflected on a particular topic from the theory on MHD in a structured manner, starting from a question I posed myself</itemProof>
+								<itemProof>I have shown examples of the application of theoretical knowledge on MHD, other than by making textbook exercises</itemProof>
+								<itemProof>I have asked probing questions to my supervisors / teachers to extend my theoretical knowledge on MHD after I had tried to solve these questions myself</itemProof>
+								<itemProof>I have devised a glossary of the relevant terms from MHD theory</itemProof>
+								<itemProof>I have explained concepts of MHD theory to fellow students in a 1-to-1 setting</itemProof>
+								<itemProof>I have explained concepts of MHD theory to fellow students in a plenary setting</itemProof>
+								<itemProof>I have  identified the need to revise a concept from the theory of MHD  as it is presented in any textbook such as Freidberg</itemProof>
+								<itemProof>I have made adjustment(s) to one or more concepts from the theory of MHD as it is presented in textbooks such as Freidberg</itemProof>
+							</itemProofs>
+						</item>
+						<item>
+							<itemTitle>A2. Knowledge of the theory of plasma diagnostics</itemTitle>
+							<itemCaption>Knowledge of the theory of plasma diagnostics refers to a body of generally accepted insights. Theoretical knowledge in general describes how the central concepts of a discipline are interrelated. It relates to the state-of-the-art knowledge within a scientific discipline.</itemCaption>							<itemLevels caption="Which of the following describes best your level of theoretical knowledge of plasma diagnostics?">
+								<itemLevel>I possess no such level of knowledge</itemLevel>
+								<itemLevel>I have heard of some of the concepts of plasma diagnostics, more in particular ECE, interferometry, Thomson scattering,  and their interrelations</itemLevel>
+								<itemLevel>I recall the above concepts of plasma diagnostics, and how they are interrelated in terms of laws, interactions, measurements and/or interventions</itemLevel>
+								<itemLevel>I can apply theoretical knowledge on plasma diagnostics to conventional problems in the discipline, such as the pen-and-paper assignments in any introductory (although not non-popularized) text on plasma diagnostics</itemLevel>
+								<itemLevel>I can apply theoretical knowledge on plasma diagnostics to problems in the discipline that are currently under active research, such as non-thermal ECE radiation</itemLevel>
+								<itemLevel>I can revise some concepts of the theory of plasma diagnostics and / or their interrelations to fulfil a need such as sawtooth control</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve this level of theoretical knowledge on plasma diagnostics?">
+								<itemProof>I have trained applying theoretical knowledge on plasma diagnostics to practical problems such as assessments</itemProof>
+								<itemProof>I have trained applying theoretical knowledge on plasma diagnostics to textbook problems of textbooks such as Hutchinson, exam</itemProof>
+								<itemProof>I reflected on a particular topic from the theory on plasma diagnostics in a structured manner, starting from a question I posed myself</itemProof>
+								<itemProof>I have shown examples of the application of theoretical knowledge on plasma diagnostics, other than by making textbook exercises</itemProof>
+								<itemProof>I have asked probing questions to my supervisors / teachers to extend my theoretical knowledge on plasma diagnostics after I had tried to solve these questions myself</itemProof>
+								<itemProof>I have devised a glossary of the relevant terms from plasma diagnostics theory</itemProof>
+								<itemProof>I have explained concepts of plasma diagnostics theory to fellow students in a 1-to-1 setting</itemProof>
+								<itemProof>I have explained concepts of plasma diagnostics theory to fellow students in a plenary setting</itemProof>
+								<itemProof>I have  identified the need to revise a concept from the theory of plasma diagnostics  as it is presented in any textbook such as Hutchinson,  lecture notes</itemProof>
+								<itemProof>I have made adjustment(s) to one or more concepts from the theory of plasma diagnostics as it is presented in textbooks such as Hutchinson</itemProof>
+							</itemProofs>
+						</item>
+						<item>
+							<itemTitle>A3. Knowledge of the theory of plasmaheating</itemTitle>
+							<itemCaption>Knowledge of the theory of plasma heating refers to a body of generally accepted insights. Theoretical knowledge in general describes how the central concepts of a discipline are interrelated. It relates to the state-of-the-art knowledge within a scientific discipline.</itemCaption>
+							<itemLevels caption="Which of the following describes best your level of theoretical knowledge of plasma heating?">
+								<itemLevel>I possess no such level of knowledge</itemLevel>
+								<itemLevel>I have heard of some of the concepts of plasma heating, more in particular neutral beam heating, ohmic heating, ECRH,  and their interrelations</itemLevel>
+								<itemLevel>I recall the above concepts of plasma heating, and how they are interrelated in terms of laws, interactions, measurements and/or interventions</itemLevel>
+								<itemLevel>I can apply theoretical knowledge on plasma heating to conventional problems in the discipline, such as the pen-and-paper assignments in any introductory (although not non-popularized) text on plasma heating</itemLevel>
+								<itemLevel>I can apply theoretical knowledge on plasma heating to problems in the discipline that are currently under active research, such as current drive, advanced scenarios</itemLevel>
+								<itemLevel>I can revise some concepts of the theory of plasma heating and / or their interrelations to fulfil a need such as current drive, advanced scenarios</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did I achieve this level of theoretical knowledge on plasmaheating?">
+								<itemProof>I have trained applying theoretical knowledge on plasma heating to practical problems such as assignments, exams</itemProof>
+								<itemProof>I have trained applying theoretical knowledge on plasma heating to textbook problems of textbooks such as Freidberg, Wesson</itemProof>
+								<itemProof>I reflected on a particular topic from the theory on plasma heating in a structured manner, starting from a question I posed myself</itemProof>
+								<itemProof>I have shown examples of the application of theoretical knowledge on plasma heating, other than by making textbook exercises</itemProof>
+								<itemProof>I have asked probing questions to my supervisors / teachers to extend my theoretical knowledge on plasma heating after I had tried to solve these questions myself</itemProof>
+								<itemProof>I have devised a glossary of the relevant terms from plasma heating theory</itemProof>
+								<itemProof>I have explained concepts of plasma heating theory to fellow students in a 1-to-1 setting</itemProof>
+								<itemProof>I have explained concepts of plasma heating theory to fellow students in a plenary setting</itemProof>
+								<itemProof>I have  identified the need to revise a concept from the theory of plasma heating  as it is presented in any textbook such as Freidberg, Wesson</itemProof>
+								<itemProof>I have made adjustment(s) to one or more concepts from the theory of plasma heating as it is presented in textbooks such as Freidberg, Wesson</itemProof>
+							</itemProofs>
+						</item>
+						<item>
+							<itemTitle>A4. Knowledge of the theory of single particle motions</itemTitle>
+							<itemCaption>Knowledge of the theory of single particle motions refers to a body of generally accepted insights. Theoretical knowledge in general describes how the central concepts of a discipline are interrelated. It relates to the state-of-the-art knowledge within a scientific discipline.</itemCaption>
+							<itemLevels caption="Which of the following describes best your level of theoretical knowledge of single particle motions?">
+								<itemLevel>I possess no such level of knowledge</itemLevel>
+								<itemLevel>I have heard of some of the concepts of single particle motions, more in particular drifts, adiabatic constants, trapping,  and their interrelations</itemLevel>
+								<itemLevel>I recall the above concepts of single particle motions, and how they are interrelated in terms of laws, interactions, measurements and/or interventions</itemLevel>
+								<itemLevel>I can apply theoretical knowledge on single particle motions to conventional problems in the discipline, such as the pen-and-paper assignments in any introductory (although not non-popularized) text on single particle motions</itemLevel>
+								<itemLevel>I can apply theoretical knowledge on single particle motions to problems in the discipline that are currently under active research, such as bootstrap current, trapped particles</itemLevel>
+								<itemLevel>I can revise some concepts of the theory of single particle motions and / or their interrelations to fulfil a need such as for runaway electrons</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did I achieve this level of theoretical knowledge of single particle motions?">
+								<itemProof>I have trained applying theoretical knowledge on single particle motions to practical problems such as test exams, assignment</itemProof>
+								<itemProof>I have trained applying theoretical knowledge on single particle motions to textbook problems of textbooks such as Freidberg, Chen, Wesson</itemProof>
+								<itemProof>I reflected on a particular topic from the theory on single particle motions in a structured manner, starting from a question I posed myself</itemProof>
+								<itemProof>I have shown examples of the application of theoretical knowledge on single particle motions, other than by making textbook exercises</itemProof>
+								<itemProof>I have asked probing questions to my supervisors / teachers to extend my theoretical knowledge on single particle motions after I had tried to solve these questions myself</itemProof>
+								<itemProof>I have devised a glossary of the relevant terms from single particle motions theory</itemProof>
+								<itemProof>I have explained concepts of single particle motions theory to fellow students in a 1-to-1 setting</itemProof>
+								<itemProof>I have explained concepts of single particle motions theory to fellow students in a plenary setting</itemProof>
+								<itemProof>I have  identified the need to revise a concept from the theory of single particle motions  as it is presented in any textbook such as Freidberg, Chen, Wesson</itemProof>
+								<itemProof>I have made adjustment(s) to one or more concepts from the theory of single particle motions as it is presented in textbooks such as Freidberg, Chen, Wesson</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Structure</compTitle>
+					<compCaption>
+						<BSc>Understands the structure of the relevant fields, and the connections between sub-fields.</BSc>
+						<MSc>Looks actively for structure and connections in the relevant fields.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>B. Knowledge of the structure of a discipline</itemTitle>
+							<itemCaption>Scientific fields are generally made up of a multitude of sub-disciplines. For example, both thermodynamicsand quantum mechanics are considered to be part of physics. Both sub-disciplines are significantly different,but share some characteristics which make them both part of physics. Structural knowledge covers anunderstanding of the internal organization of a scientific discipline.</itemCaption>
+							<itemLevels caption="Which of the following describes best your level of knowledge of the structure of a discipline?">
+								<itemLevel>I possess no such level of knowledge</itemLevel>
+								<itemLevel>I realize that the discipline(s) I am studying  has / have  a structure</itemLevel>
+								<itemLevel>I can mention some features of the structure of the discipline(s) I am studying, that is: pairs of key concepts and the relation that connects them</itemLevel>
+								<itemLevel>I am able to map out the structure of the discipline(s) I am studying, that is: I am able to draw a graph containing key concepts as points, and meaningfully label the connecting arcs where this graph contains at least some 50 key concepts and 150 arcs</itemLevel>
+								<itemLevel>I am able to point out similarities in structure between subfields of the discipline(s) I am studying, that is: I can give examples of parts from the graph from the previous question where I can explain the structural differences and similarities between these parts</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did I achieve this  level of knowledge of the structure of a discipline?">
+								<itemProof>I took lectures in several sub-disciplines</itemProof>
+								<itemProof>I identified the structure of the discipline(s) I am studying, making lists of key concepts and their connections</itemProof>
+								<itemProof>I made a schematic diagram (for instance in the form of  a graph) of the discipline(s) I am studying, showing the structure</itemProof>
+								<itemProof>I searched for similarities and differences between various sub-disciplines in a graph, representing the structure of the discipline</itemProof>
+								<itemProof>I have explained the structure of the discipline to fellow students in a 1-to-1 setting</itemProof>
+								<itemProof>I have explained the structure of the discipline to fellow students in a pleanry setting</itemProof>
+								<itemProof>I have made assignments that require an understanding of  the structure of the discipline</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Truth-finding</compTitle>
+					<compCaption>
+						<BSc>Has knowledge of and some skill in the way in which truth-finding and the development of theories and models take place in the relevant fields</BSc>
+						<MSc>Has the skill and the attitude to apply these methods independently in the context of more advanced ideas or applications</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>C. Knowledge of discipline-specific methods</itemTitle>
+							<itemCaption>Scientific disciplines differ in the way new ideas and hypotheses are tested before they are adopted into the body of generally accepted insights. For example, formal consistency is the primary test for new mathematical arguments, whereas in empirical disciplines new ideas are often probed with experiments. Knowledge of discipline-specific methods covers how theoretical development takes place in a given scientific discipline.</itemCaption>
+							<itemLevels caption="Which of the following describes your  level of knowledge of discipline-specific methods?">
+								<itemLevel>I possess no such level of knowledge</itemLevel>
+								<itemLevel>I realize that developing a scientific discipline involves methods</itemLevel>
+								<itemLevel>I can mention the most important standard methods of the discipline(s) I am studying</itemLevel>
+								<itemLevel>When I work on a problem in my discipline, I can mention which method I am using at any moment</itemLevel>
+								<itemLevel>I am able to effectively apply the standard methods to standard problems</itemLevel>
+								<itemLevel>I am able to effectively apply the standard methods to novel problems</itemLevel>
+								<itemLevel>I am able to adapt the methods of the discipline</itemLevel>
+								<itemLevel>I am able to devise a new method in my discipline</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve this level of knowledge?">
+								<itemProof>I have read about discipline-specific methods</itemProof>
+								<itemProof>I have trained the usage of discipline-specific methods in dedicated textbook assignments</itemProof>
+								<itemProof>I have applied some discipline-specific methods to non-textbook assignments</itemProof>
+								<itemProof>I have reflected on discipline-specific methods in a structured manner, starting from a question I posed myself</itemProof>
+								<itemProof>I have explained methods in the discipline to fellow students in a 1-to-1 setting</itemProof>
+								<itemProof>I have explained methods in the discipline to fellow students in a pleanry setting</itemProof>
+								<itemProof>I have compiled summaries on discipline-specific methods</itemProof>
+								<itemProof>I have read / studied examples of methodologically flawed scientific projects</itemProof>
+								<itemProof>I have compiled a glossary of relevant terms regarding methodology</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Interpretation</compTitle>
+					<compCaption>
+						<BSc>Has knowledge of and some skill in the way in which interpretations (texts, data, problems, results) take place in the relevant fields.</BSc>
+						<MSc>Has the skill and the attitude to apply these methods independently in the context of more advanced ideas or applications.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>F. Knowledge about proper inference from data</itemTitle>
+							<itemCaption>Data can take many formats and are normally subjected to some analysis. Dependent on the type of analysis, these results have to be interpreted.</itemCaption>
+							<itemLevels caption="Which of the following describes best your level of knowledge about proper inference from data?">
+								<itemLevel>I possess no such level of knowledge</itemLevel>
+								<itemLevel>I am able to mention an example of inference from data</itemLevel>
+								<itemLevel>I am able to explain the consequences of making proper inferences</itemLevel>
+								<itemLevel>I am able to recall the elements of proper inferences that apply in my discipline (for instance, fitting parameters, making qualitative distinctions, ?)</itemLevel>
+								<itemLevel>I am able to use the elements of proper inferences in idealised situations (say, in lab assignments)</itemLevel>
+								<itemLevel>I am able to make proper inferences on the correct level of accuracy (reliability, certainty, ?)</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve this level of knowledge about proper inference from data?">
+								<itemProof>I have done practical assignments involving inference from data</itemProof>
+								<itemProof>I have done textbook assignments that hinge on the inference from data</itemProof>
+								<itemProof>I have reflected on the principles of proper inferences, starting from a question I posed myself</itemProof>
+								<itemProof>I have compiled notes on inference from data</itemProof>
+								<itemProof>I have explained inference to fellow students in a 1-to-1 setting</itemProof>
+								<itemProof>I have explained inference to fellow students in a plenary setting</itemProof>
+								<itemProof>I have asked questions to my supervisors on inference, after having tried to answer these questions myself</itemProof>
+								<itemProof>I have used methods for inference in the course of a practical project</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Experiments</compTitle>
+					<compCaption>
+						<BSc>Has knowledge of and some skill in the way in which experiments, gathering of data and simulations take place in the relevant fields.</BSc>
+						<MSc>Has the skill and the attitude to apply these methods independently in the context of more advanced ideas or applications.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>E. Knowledge about experimenting, data gathering and/or simulation</itemTitle>
+							<itemCaption>Empirical research depends on data. Data can be obtained by empirical experimentation  (producing new data), collecting existing data, or simulation (that is, generating data by executing a model system instead of a real system)  In mechanical engineering, for instance, the strength of various materials is measured.</itemCaption>
+							<itemLevels caption="Which of the following describes best your level of knowledge about data gathering?">
+								<itemLevel>I possess no such level of knowledge</itemLevel>
+								<itemLevel>I know the meaning, role and function of experimenting, data gathering and simulation</itemLevel>
+								<itemLevel>I recall methods for experimenting, data gathering and/or simulation</itemLevel>
+								<itemLevel>I am able to effectively obtain data according to textbook methods for experimenting, data gathering and/or simulation in an idealized setting</itemLevel>
+								<itemLevel>I am able to effectively obtain data in realistic settings using experiments, data gathering and/or simulation</itemLevel>
+								<itemLevel>I am able to develop a novel method for obtaining data by experiment, data gathering and/or simulation</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve this level of knowledge?">
+								<itemProof>I have done assignments on the methods for obtaining data</itemProof>
+								<itemProof>I have used a standard method for obtaining data in a practical project</itemProof>
+								<itemProof>I have compiled notes about obtaining data</itemProof>
+								<itemProof>I have explained methods for obtaining data to fellow students in a 1-to-1 setting</itemProof>
+								<itemProof>I have explained methods for obtaining data to fellow students in a plenary setting</itemProof>
+								<itemProof>I have taken in a course on either experimental techniques or simulation</itemProof>
+								<itemProof>I have studied examples of scientific explorations that failed because of inappropriate methods for obtaining data</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Decision-making</compTitle>
+					<compCaption>
+						<BSc>Has knowledge of and some skill in the way in which decision-making takes place in the relevant fields.</BSc>
+						<MSc>Has the skill and the attitude to apply these methods independently in the context of more advanced ideas or applications.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>no item</itemTitle>
+							<itemCaption>no item caption</itemCaption>
+							<itemLevels caption="-- no text --">
+								<itemLevel> -- nothing -- </itemLevel>
+							</itemLevels>
+							<itemProofs caption="-- no text --">
+								<itemProof> -- nothing -- </itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Presuppositions</compTitle>
+					<compCaption>
+						<BSc>Is aware of both the presuppositions of the standard methods and their importance.</BSc>
+						<MSc>Is able to refl ect on standard methods and their presuppositions; is able to question these; is able to propose adjustments, and to estimate their implications.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>D. Knowledge of presuppositions</itemTitle>
+							<itemCaption>Application of standard methods in any scientific discipline is based on presuppositions. For instance, probability theory can be used to calculate the odds of winning with a certain hand of cards in a game of black jack only if the assumption of a uniform distribution is met, i.e. the deck of cards is properly shuffled before the game.</itemCaption>
+							<itemLevels caption="Which of the following describes best your level of knowledge regarding presuppositions?">
+								<itemLevel>I possess no such level of knowledge</itemLevel>
+								<itemLevel>I realize that procedures and models assume presuppositions to hold</itemLevel>
+								<itemLevel>I am able to mention some examples of presuppositions that need to hold for some of the standard methods in my discipline</itemLevel>
+								<itemLevel>I know the critical presuppositions behind procedures and models in my discipline for most common procedures and models</itemLevel>
+								<itemLevel>I am able to check whether presuppositions are valid in my scientific work</itemLevel>
+								<itemLevel>I routinely check whether presuppositions are valid in my scientific work</itemLevel>
+								<itemLevel>I have the attitude not to apply any method unless I verified all critical presuppositions</itemLevel>
+								<itemLevel>I am able to come up with alternative presuppositions when circumstances require this</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve this level of knowledge?">
+								<itemProof>I have investigated the presuppositions behind procedures and models</itemProof>
+								<itemProof>I have taken a course in the methodology of science</itemProof>
+								<itemProof>I have reflected on presuppositions in a structured manner, starting from a question I posed myself</itemProof>
+								<itemProof>I have compiled notes about the presuppositions behind procedures and models</itemProof>
+								<itemProof>I have explained presuppositions to fellow students in a 1-to-1 setting</itemProof>
+								<itemProof>I have explained presuppositions to fellow students in a plenary setting</itemProof>
+								<itemProof>I have collected examples of scientific explorations that have failed because of flawed presuppositions</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Revise and Extend</compTitle>
+					<compCaption>
+						<BSc>Is able (with supervision) to spot gaps in his / her own knowledge, and to revise and extend it through study</BSc>
+						<MSc>Idem, independently.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>no item</itemTitle>
+							<itemCaption>no item caption</itemCaption>
+							<itemLevels caption="-- no text --">
+								<itemLevel> -- nothing -- </itemLevel>
+							</itemLevels>
+							<itemProofs caption="-- no text --">
+								<itemProof> -- nothing -- </itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+			</comps>
+		</compArea>
+		<compArea>
+			<compAreaTitle>Doing Research</compAreaTitle>
+			<compAreaCaption>II. This section explores your competence in executing research. With research, we mean the development and probing of new knowledge and new insights in a purposeful and systematic manner.</compAreaCaption>
+			<comps>
+				<comp>
+					<compTitle>Reformulate Research Problem</compTitle>
+					<compCaption>
+						<BSc>Is able to reformulate ill-structured research problems. Also takes account of the system boundaries in this. Is able to defend the new interpretation against involved parties</BSc>
+						<MSc>Idem, for problems of a more complex nature.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>A. Ability to formulate research questions</itemTitle>
+							<itemCaption>The question at the beginning of a research project is often ill-defined and cannot be researched properly. It first has to be reformulated in terms of the relevant scientific theories, measurement procedures, etc.</itemCaption>
+							<itemLevels caption="Which of the following describes best your competence level in formulating research questions?">
+								<itemLevel>I posses no such level of competence</itemLevel>
+								<itemLevel>I am able to identify the theories or procedures in terms of which a research question should be phrased</itemLevel>
+								<itemLevel>I am able to see if a research question in my discipline is properly phrased</itemLevel>
+								<itemLevel>I am able to reformulate a research question in terms of relevant theories and procedures</itemLevel>
+								<itemLevel>I am able to translate a question into testable hypotheses</itemLevel>
+								<itemLevel>I am able to translate a question into the proper procedures to test the theoretically proper hypotheses</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve this competence level in formulating research questions?">
+								<itemProof>I have done assignments in which I had to reformulate real-life questions into research questions</itemProof>
+								<itemProof>I have used a methodical approach for the reformulation of ill-defined research questions</itemProof>
+								<itemProof>I have transformed a research question into an appropriate format in the course of project work</itemProof>
+								<itemProof>I have worked on reformulation of a research question, producing two different versions of procedures to test a hypotheses</itemProof>
+								<itemProof>I have improved a case where a research question was not appropriately posed</itemProof>
+								<itemProof>I have identified an alleged research question a being non-testable</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Creativity (research)</compTitle>
+					<compCaption>
+						<BSc>Is observant, and has the creativity and the capacity to discover in apparently trivial matters certain connections and new viewpoints.</BSc>
+						<MSc>Idem, and is able to put these viewpoints into practice for new applications.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>B. Creativity</itemTitle>
+							<itemCaption>In science, a researcher has to be able to discover new and unconventional connections and adopt alternative points of view.</itemCaption>
+							<itemLevels caption="Which of the following describes best your creativity level?">
+								<itemLevel>I possess no such level of competence</itemLevel>
+								<itemLevel>I can recognize when some procedure or viewpoint is a variation of some other procedure or viewpoint</itemLevel>
+								<itemLevel>I have heard of methods to seek for variations to well known procedures or viewpoints</itemLevel>
+								<itemLevel>I know one or more methods to seek variations to well known procedures or viewpoints</itemLevel>
+								<itemLevel>I have experience with one or more methods to seek variations to well known procedures or viewpoints</itemLevel>
+								<itemLevel>I routinely use one or more methods to seek variations to well known procedures or viewpoints</itemLevel>
+								<itemLevel>I usually see a variety of different procedures or viewpoints</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve this level of creativity?">
+								<itemProof>I have read about the importance of having multiple alternative approaches</itemProof>
+								<itemProof>I participate in brainstorm sessions</itemProof>
+								<itemProof>| recall having been surprised by an unorthodox approach in my discipline</itemProof>
+								<itemProof>I engage in exercises with techniques to relax restrictions on creative thinking</itemProof>
+								<itemProof>I have read about the psychology of creative thinking</itemProof>
+								<itemProof>I have done exercises to apply techniques to find alternative solutions in non-technical settings</itemProof>
+								<itemProof>I have applied techniques to find alternative solutions in technical settings</itemProof>
+								<itemProof>I have successfully inspired fellow students to find non-orthodox solutions to research problems</itemProof>
+								<itemProof>I have applied techniques to find alternative solutions in the course of my project work</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Research Plan</compTitle>
+					<compCaption>
+						<BSc>Is able (with supervision) to produce and execute a research plan.</BSc>
+						<MSc>Idem, independently.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>C. Ability to implement research plans</itemTitle>
+							<itemCaption>Research involves multiple tasks (e.g., data collection, experimental set-up, measurements, analysis of the data). Often these tasks are only mapped out in general terms beforehand, leaving the details of the implementation to the individual researcher.</itemCaption>
+							<itemLevels caption="Which of the following describes best your competence level?">
+								<itemLevel>I possess no such level of competence</itemLevel>
+								<itemLevel>I am able to implement a recipe-style plan that describes what tasks, in what order and, how to carry them out</itemLevel>
+								<itemLevel>I am able to implement a plan that describes the tasks and order (but not how to carry them out)</itemLevel>
+								<itemLevel>I am able to implement a plan that states the tasks (but neither the order, nor how to carry them out)</itemLevel>
+								<itemLevel>I am able to implement my own plan based on the research question (without any guidance)</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve this competence level in implementing research plans?">
+								<itemProof>I keep a work diary, noting the project phase where I am</itemProof>
+								<itemProof>I have thought about the order of the tasks I have to do</itemProof>
+								<itemProof>I have revised the order of tasks I need to do because of an analysis I made</itemProof>
+								<itemProof>I have broke down a task in several sub tasks</itemProof>
+								<itemProof>I have made quantitative estimates about the length of tasks I need to do</itemProof>
+								<itemProof>I have analysed the external resources I need before I can do a tasks</itemProof>
+								<itemProof>I produce a plan and have it approved by my supervisor</itemProof>
+								<itemProof>I have read a book on project management</itemProof>
+								<itemProof>I have helped fellow students to set up their research plan</itemProof>
+								<itemProof>I have devised different plans and evaluate which is the best</itemProof>
+								<itemProof>I took a course in project management</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Abstraction Levels (research)</compTitle>
+					<compCaption>
+						<BSc>Is able to work at different levels of abstraction.</BSc>
+						<MSc>Given the process stage of the research problem, chooses the appropriate level of abstraction.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>D. Ability to think on different levels of abstraction</itemTitle>
+							<itemCaption>In research, the phenomenon under investigation is often described on different levels of abstraction. These levels can be distinguished by the type of statements that are made to describe the phenomenon.</itemCaption>
+							<itemLevels caption="Which of the following describes best your level of abstraction?">
+								<itemLevel>I possess no such level of competence</itemLevel>
+								<itemLevel>I am able to identify the specifics of the phenomenon under investigation in colloquial terms</itemLevel>
+								<itemLevel>I am able to talk about the phenomenon under investigation in theoretical terms</itemLevel>
+								<itemLevel>I am able to formalize the specifics of the phenomenon mathematically</itemLevel>
+								<itemLevel>I am able to manipulate the mathematical formalization of the phenomenon in order to verify known properties</itemLevel>
+								<itemLevel>I am able to manipulate the mathematical formalization of the phenomenon in order to make predictions</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did I achieve the competence competence level in thinking on different levels of abstraction?">
+								<itemProof>I took an optional math course in order to deepen my mathematical knowledge</itemProof>
+								<itemProof>I reflected on the relation between the phenomenon and its mathematical representation</itemProof>
+								<itemProof>I exercised with multiple mathematical representations for the same phenomenon</itemProof>
+								<itemProof>I used mathematics to verify a known feature of the phenomenon</itemProof>
+								<itemProof>I mapped a given mathematical formalisation into an other sub-field of mathematics</itemProof>
+								<itemProof>I explained the use of mathematics in my discipline to a fellow student in a 1-to-1 setting</itemProof>
+								<itemProof>I explained the use of mathematics in my discipline to a fellow student in a pleanry setting</itemProof>
+								<itemProof>I routinely use technical jargon in an appropriate manner</itemProof>
+								<itemProof>I exercise finding multiple phenomena fitting with the same mathematical representation</itemProof>
+								<itemProof>I have discussed weaknesses of an inadequate application of theoretical concepts</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Interdisciplinarity (research)</compTitle>
+					<compCaption>
+						<BSc>Understands, where necessary, the importance of other disciplines (interdisciplinarity).</BSc>
+						<MSc>Is able, and has the attitude to, where necessary, draw upon other disciplines in his or her own research.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>E. Ability to engage in interdisciplinary research</itemTitle>
+							<itemCaption>In modern science, interdisciplinary research becomes more and more prevalent. Interdisciplinary research often requires merging knowledge, methods and concepts from distinct scientific disciplines.</itemCaption>
+							<itemLevels caption="Which of the following describes best your competence level students?">
+								<itemLevel>I posses no such level of competence</itemLevel>
+								<itemLevel>I am able to explain my research problem to scholars from other disciplines</itemLevel>
+								<itemLevel>I am able to mention theories and methods from disciplines, different from my own</itemLevel>
+								<itemLevel>I am able to use theories and methods from disciplines, different from my own</itemLevel>
+								<itemLevel>I am able to work on research problems requiring the merge of knowledge, methods, and concepts from distinct disciplines</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did I achieve this competence level in engaging in interdisciplinary research?">
+								<itemProof>I have read books from other disciplines</itemProof>
+								<itemProof>I have taken one or more courses in other disciplines</itemProof>
+								<itemProof>I have done exercises that explore connections between disciplines</itemProof>
+								<itemProof>I have compiled notations describing parallels and differences between different disciplines</itemProof>
+								<itemProof>I have articulated differences in purpose and methodology between different disciplines</itemProof>
+								<itemProof>I explained topics from a discipline X, different of my own, to students from my own discipline</itemProof>
+								<itemProof>I explained topics from a discipline X, different from my own, to students from discipline Y, different from X and different from my own</itemProof>
+								<itemProof>I explained topics from a discipline X, different from my own, to students from discipline X</itemProof>
+								<itemProof>I have viewed my own discipline from the perspective of another discipline</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Changeability (research)</compTitle>
+					<compCaption>
+						<BSc>Is aware of the changeability of the research process through external circumstances or advancing insight</BSc>
+						<MSc>Is able to deal with the changeability of the research process through external circumstances or advancing insight. Is able to steer the process on the basis of this.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>no item</itemTitle>
+							<itemCaption>no item caption</itemCaption>
+							<itemLevels caption="-- no text --">
+								<itemLevel> -- nothing -- </itemLevel>
+							</itemLevels>
+							<itemProofs caption="-- no text --">
+								<itemProof> -- nothing -- </itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Assess Usefulness (research)</compTitle>
+					<compCaption>
+						<BSc>Is able to assess research within the discipline on its usefulness.</BSc>
+						<MSc>Is able to assess research within the discipline on its scientific value.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>F. Ability to appraise scientific evidence</itemTitle>
+							<itemCaption>In applied research, scientific knowledge from the literature is used to solve practical problems. For that, a researcher must be able to assess the soundness of the reported evidence, the quality of the (empirical) argument, and of the methods used.</itemCaption>
+							<itemLevels caption="Which of the following describes best your competence level in critically appraising scientific evidence?">
+								<itemLevel>I possess no such level of competence</itemLevel>
+								<itemLevel>I am able to find relevant literature</itemLevel>
+								<itemLevel>I know criteria for correctness and reliability of published research results</itemLevel>
+								<itemLevel>I know criteria for relevance for published research results in relation to a problem at hand</itemLevel>
+								<itemLevel>I am able to appraise the relevance of a particular research result for a problem at hand</itemLevel>
+								<itemLevel>I am able to appraise the soundness of the evidence</itemLevel>
+								<itemLevel>I am able to provide a dependable summary of the state-of-the-art knowledge about a certain topic</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve this competence level in critically appraising scientific evidence?">
+								<itemProof>I systematically read original publications on research</itemProof>
+								<itemProof>I systematically appraise published research results</itemProof>
+								<itemProof>I have taken a course on critical appraisal of scientific literature</itemProof>
+								<itemProof>I have compared and analysed two contradicting papers on some topic</itemProof>
+								<itemProof>I have spotted a flaw in a published scientific result</itemProof>
+								<itemProof>I have spotted a weakness in a published scientific argument</itemProof>
+								<itemProof>I have identified a published scientific result as insufficient for my purpose</itemProof>
+								<itemProof>I can mention criteria for the reliability of published scientific results</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+			</comps>
+		</compArea>
+		<compArea>
+			<compAreaTitle>Designing</compAreaTitle>
+			<compAreaCaption>III. This section explores your ability to design artefacts. With design, we mean the development of new or modified artefacts, or parts thereof, with the intention of creating gains in accordance with predefined value (e.g., functionality, efficiency, usability).</compAreaCaption>
+			<comps>
+				<comp>
+					<compTitle>Reformulate Design Problem</compTitle>
+					<compCaption>
+						<BSc>Is able to reformulate ill-structured design problems. Also takes account of the system boundaries in this. Is able to defend this new interpretation against the parties involved.</BSc>
+						<MSc>Idem, for design problems of a more complex nature.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>A. Ability to reformulate design problems</itemTitle>
+							<itemCaption>The design objective, as formulated by the stake holders, often needs reconsideration before it can be technically addressed. A designer should be able to reformulate the design problem, and argue for his or her reformulation.</itemCaption>
+							<itemLevels caption="Which of the following describes best your competence level in reformulating design problems?">
+								<itemLevel>I possess no such level of competence</itemLevel>
+								<itemLevel>I am able to identify the interests of the stake holders</itemLevel>
+								<itemLevel>I am able to systematically explore the stake holders' wishes</itemLevel>
+								<itemLevel>I am able to set the goals for the design project (i.e. define the gains that have to be created)</itemLevel>
+								<itemLevel>I am able to reformulate the design problem</itemLevel>
+								<itemLevel>I am able to defend my reformulation of the design problem</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve your competence level in reformulating design problems?">
+								<itemProof>I have engaged in a role-play where participants play the roles of stakeholders</itemProof>
+								<itemProof>I have engaged in exercises where I had to extract requirements from statements of stakeholders</itemProof>
+								<itemProof>I have read literature on reformulation of design problems (case studies)</itemProof>
+								<itemProof>I have observed the beginning of an actual design process and analysed the reformulation of the design problem</itemProof>
+								<itemProof>I have performed a reformulation of a design problem</itemProof>
+								<itemProof>I have identified a case of conflicting requirements</itemProof>
+								<itemProof>I have helped stakeholders identifying their functional needs</itemProof>
+								<itemProof>I have resolved a case of conflicting requirements</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Creativity (design)</compTitle>
+					<compCaption>
+						<BSc>Has creativity and synthetic skills with respect to design problems.</BSc>
+						<MSc>Idem.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>B. Creativity</itemTitle>
+							<itemCaption>Design amounts to finding design solutions. These solutions range from conventional (e.g. the dimensions of the window will be 1.20m by 1.80m) to extremely unorthodox (e.g. this building will contain no windows, but unlight enters through the walls that are made of translucent plastic). Creativity relates to the ability to propose unconventional solutions.</itemCaption>
+							<itemLevels caption="I possess no such level of competence:">
+								<itemLevel>I can recognize when some design solution is a variation of some other design solution</itemLevel>
+								<itemLevel>I have heard of methods to seek for variations to well known design solutions</itemLevel>
+								<itemLevel>I know one or more methods to seek variations to well known design solutions</itemLevel>
+								<itemLevel>I have experience with one or more methods to seek variations to well known design solutions</itemLevel>
+								<itemLevel>I routinely use one or more methods to seek variations to well known design solutions</itemLevel>
+								<itemLevel>I usually see a variety of different design solutions</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve this level of creativity?">
+								<itemProof>I have read about the importance of having multiple alternative approaches</itemProof>
+								<itemProof>I participate in brainstorm sessions</itemProof>
+								<itemProof>I engage in exercises with techniques to relax restrictions on creative thinking</itemProof>
+								<itemProof>I have read about the psychology of creative thinking</itemProof>
+								<itemProof>I have done exercises to apply techniques to find alternative solutions in non-technical settings</itemProof>
+								<itemProof>I have applied techniques to find alternative solutions in technical settings</itemProof>
+								<itemProof>I have successfully inspired fellow students to find non-orthodox solutions to design problems</itemProof>
+								<itemProof>I have applied techniques to find alternative solutions in the course of my project work</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Design Plan</compTitle>
+					<compCaption>
+						<BSc>Is able (with supervision) to produce and execute a design plan.</BSc>
+						<MSc>Idem, independently.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>C. Ability to implement design plans</itemTitle>
+							<itemCaption>Designing involves multiple tasks (e.g., sketching, prototyping, testing). Often these tasks are only mapped out in general terms beforehand, leaving the details of the implementation to the individual designer.</itemCaption>
+							<itemLevels caption="Which of the following describes best your competence level?">
+								<itemLevel>I possess no such level of competence</itemLevel>
+								<itemLevel>I am able to implement a recipe-style plan that describes what tasks, in what order and, how to carry them out</itemLevel>
+								<itemLevel>I am able to implement a plan that describes the tasks and order (but not how to carry them out)</itemLevel>
+								<itemLevel>I am able to implement a plan that states the tasks (but neither the order, nor how to carry them out)</itemLevel>
+								<itemLevel>I am able to implement my own plan based on the design problem (without any guidance)</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve this competence level in implementing design plans?">
+								<itemProof>I keep a work diary, noting the project phase where I am</itemProof>
+								<itemProof>I have thought about the order of the tasks I have to do</itemProof>
+								<itemProof>I have revised the order of tasks I need to do because of an analysis I made</itemProof>
+								<itemProof>I have broke down a task in several sub tasks</itemProof>
+								<itemProof>I have made quantitative estimates about the length of tasks I need to do</itemProof>
+								<itemProof>I have analysed the external resources I need before I can do a tasks</itemProof>
+								<itemProof>I produce a plan and have it approved by my supervisor</itemProof>
+								<itemProof>I have read a book on project management</itemProof>
+								<itemProof>I have helped fellow students to set up their design plan</itemProof>
+								<itemProof>I have devised different plans and evaluate which is the best</itemProof>
+								<itemProof>I took a course in project management</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Abstraction (design)</compTitle>
+					<compCaption>
+						<BSc>Is able to work at different levels of abstraction including the system level.</BSc>
+						<MSc>Given the process stage of the design problem, chooses the appropriate level of abstraction.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>D. Ability to work at various levels of integration</itemTitle>
+							<itemCaption>Technological design produces artefacts with a complex structure, function, and behaviour. These artefacts can be understood at different levels of integration (at least that of individual components and that of the system as a whole), each with its own method for modelling, language for specification, etc. The ability to work at various levels of integration refers to the capability to take advantage of the different views on the artefact offered by the levels in the design process.</itemCaption>
+							<itemLevels caption="Which of the following describes best your competence?">
+								<itemLevel>I possess no such level of competence</itemLevel>
+								<itemLevel>I am able to distinguish between component and system levels</itemLevel>
+								<itemLevel>I am able to identify components in a system level design</itemLevel>
+								<itemLevel>I am able to design on system level given the components</itemLevel>
+								<itemLevel>I am able to design on system level, designing the components as well</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve this competence level in working on various levels of integration?">
+								<itemProof>I have analysed existing artefacts at different levels of integration</itemProof>
+								<itemProof>I have composed a description in terms of architecture (components and their relations) for an existing artefact</itemProof>
+								<itemProof>I have re-designed a component of a given artefact</itemProof>
+								<itemProof>I have designed a system from a given set of components</itemProof>
+								<itemProof>I have taken a course in compositional design methods</itemProof>
+								<itemProof>I have derived properties of an artefact at system level from the properties of its components</itemProof>
+								<itemProof>I have decomposed a system level design into components in a number of different ways</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Interdiciplinarity (design)</compTitle>
+					<compCaption>
+						<BSc>Understands, where necessary, the importance of other disciplines (interdisciplinarity).</BSc>
+						<MSc>Is able, and has the attitude, where necessary, to draw upon other disciplines in his or her own design.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>E. Ability to integrate knowledge from several disciplines</itemTitle>
+							<itemCaption>With modern technology, interdisciplinary design is common place. Professionals from various disciplines work together and/or professional know-how from traditionally distinct domains has to be integrated. In other words, interdisciplinary design requires merging knowledge, methods and concepts from distinct disciplines.</itemCaption>
+							<itemLevels caption="Which of the following describes best your competence level in integrating knowledge from several disciplines?">
+								<itemLevel>I posses no such level of competence</itemLevel>
+								<itemLevel>I am able to explain my research problem to scholars from other disciplines</itemLevel>
+								<itemLevel>I am able to mention theories and methods from disciplines, different from my own</itemLevel>
+								<itemLevel>I am able to use theories and methods from disciplines, different from my own</itemLevel>
+								<itemLevel>I am able to work on research problems requiring the merge of knowledge, methods, and concepts from distinct disciplines</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did I achieve this competence level in engaging in interdisciplinary research?">
+								<itemProof>I have read books from other disciplines</itemProof>
+								<itemProof>I have taken one or more courses in other disciplines</itemProof>
+								<itemProof>I have done exercises that explore connections between disciplines</itemProof>
+								<itemProof>I have compiled notations describing parallels and differences between different disciplines</itemProof>
+								<itemProof>I have articulated differences in purpose and methodology between different disciplines</itemProof>
+								<itemProof>I have viewed my own discipline from the perspective of another discipline</itemProof>
+								<itemProof>I explained topics from a discipline X, different of my own, to students from my own discipline</itemProof>
+								<itemProof>I explained topics from a discipline X, different from my own, to students from discipline Y, different from X and different from my own</itemProof>
+								<itemProof>I explained topics from a discipline X, different from my own, to students from discipline X</itemProof>
+								<itemProof>I have worked on a design problem together with students from different disciplines</itemProof>
+								<itemProof>I have worked on a design problem that was not labelled with a particular disciplin</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Changeability (design)</compTitle>
+					<compCaption>
+						<BSc>Is aware of the changeability of the design process through external circumstances or advancing insight.</BSc>
+						<MSc>Is able to deal with the changeability of the design process through external circumstances or advancing insight. Is able to steer the process on the basis of this.</MSc>
+					</compCaption>
+          <items>
+						<item>
+							<itemTitle>no item</itemTitle>
+							<itemCaption>no item caption</itemCaption>
+							<itemLevels caption="-- no text --">
+								<itemLevel> -- nothing -- </itemLevel>
+							</itemLevels>
+							<itemProofs caption="-- no text --">
+								<itemProof> -- nothing -- </itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Integrate Existing Knowledge (design)</compTitle>
+					<compCaption>
+						<BSc>Is able to integrate existing knowledge in a design.</BSc>
+						<MSc>Is able to formulate new research questions on the basis of a design problem.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>no item</itemTitle>
+							<itemCaption>no item caption</itemCaption>
+							<itemLevels caption="-- no text --">
+								<itemLevel> -- nothing -- </itemLevel>
+							</itemLevels>
+							<itemProofs caption="-- no text --">
+								<itemProof> -- nothing -- </itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Design Decisions</compTitle>
+					<compCaption>
+						<BSc>Has the skill to take design decisions, and to justify and evaluate these in a systematic manner.</BSc>
+						<MSc>Idem.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>F. Take well-justified design decisions</itemTitle>
+							<itemCaption>Taking decision is the crucial aspect of designing. Decisions can be implicit or explicit, and the justification of design decisions may or may not be the result of conscious deliberation.</itemCaption>
+							<itemLevels caption="Which of the following describes best your level in the competence of taking well-justified design decisions?">
+								<itemLevel>I posses no such level of competence</itemLevel>
+								<itemLevel>I am able to identify when I take a decision</itemLevel>
+								<itemLevel>I am able to see when a design decision is well-justified</itemLevel>
+								<itemLevel>I am able to give a justification of decision in hindsight</itemLevel>
+								<itemLevel>I am able to defend my decision against critical comments</itemLevel>
+								<itemLevel>I am able to base my design decisions on a priori considerations</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did I achieve this competence level in taking well-justified design decisions?">
+								<itemProof>I have read books on decision theory</itemProof>
+								<itemProof>I have defended design decisions against critical comments</itemProof>
+								<itemProof>I keep a work-diary where I log my design decisions</itemProof>
+								<itemProof>I routinely make a list of alternatives whenever I take a design decision</itemProof>
+								<itemProof>I have given design rationales for design decisions taken by others</itemProof>
+								<itemProof>I have helped fellow students to justify their design decisions</itemProof>
+								<itemProof>I have pointed out wrong decisions in the design of others on the basis of argumentation</itemProof>
+								<itemProof>I have re-considered design decisions on he basis of critical analysis</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+			</comps>
+		</compArea>
+		<compArea>
+			<compAreaTitle>Scientific Approach</compAreaTitle>
+			<compAreaCaption>IV. This section explores your competence concerning your scientific attitude. An appreciation for scientific inquiry and its methods, and knowledge about its rationale help to differentiate between reliable and unreliable know-how and between strong and weak evidence.</compAreaCaption>
+			<comps>
+				<comp>
+					<compTitle>Inquisitive</compTitle>
+					<compCaption>
+						<BSc>Is inquisitive and has an attitude of lifelong learning.</BSc>
+						<MSc>Is able to identify and take in relevant developments.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>D. Appreciation for lifelong learning</itemTitle>
+							<itemCaption>Developments and innovations in science and technology follow each other in more or less rapid sequences. Keeping up with these developments requires one's readiness to read scientific outlets and to continuously learn (i.e., a whole professional life) combined with an ability to critically assess new know-how and innovations.</itemCaption>
+							<itemLevels caption="Which of the following describes best your level of capability regarding lifelong learning?">
+								<itemLevel>I possess no such level of capability</itemLevel>
+								<itemLevel>I am convinced about the necessity for lifelong learning</itemLevel>
+								<itemLevel>I know of particular means for lifelong learning</itemLevel>
+								<itemLevel>I consider myself up-to-date with respect to scientific publications in my field</itemLevel>
+								<itemLevel>I consider myself up-to-date with respect to recent results in my discipline</itemLevel>
+								<itemLevel>I consider myself up-to-date with respect to current trends in my discipline</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve this level of capability for lifelong learning?">
+								<itemProof>I have found a scientific result that was younger than six months</itemProof>
+								<itemProof>I regularly consult recent scientific journals in my field</itemProof>
+								<itemProof>I regularly consult websites about new trends in science</itemProof>
+								<itemProof>I regularly draw the attention of my peers to novel results</itemProof>
+								<itemProof>I informed my fellow students of new results in my discipline</itemProof>
+								<itemProof>I informed my fellow students of recent trends in my discipline</itemProof>
+								<itemProof>I regularly buy books on my field</itemProof>
+								<itemProof>I regularly buy books on scientific fields, other than my field</itemProof>
+								<itemProof>I have a subscription to a scientific journal</itemProof>
+								<itemProof>I recently visited a conference</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Systematic Approach</compTitle>
+					<compCaption>
+						<BSc>Has a systematic approach characterised by the development and use of theories, models and interpretations.</BSc>
+						<MSc>Is able to critically examine existing theories, models or interpretations in the area of his or her graduation subject.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>no item</itemTitle>
+							<itemCaption>no item caption</itemCaption>
+							<itemLevels caption="-- no text --">
+								<itemLevel> -- nothing -- </itemLevel>
+							</itemLevels>
+							<itemProofs caption="-- no text --">
+								<itemProof> -- nothing -- </itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Modelling</compTitle>
+					<compCaption>
+						<BSc>Has the knowledge and the skill to use, justify and assess as to their value models for research and design (model understood broadly: from mathematical model to scale-model). Is able to adapt models for his or her own use.</BSc>
+						<MSc>Has great skill in, and affinity with the use, development and validation of models; is able consciously to choose between modelling techniques.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>B. Insights into the model-system relation</itemTitle>
+							<itemCaption>Regardless of whether we deal with mathematical models, physical models, or with models in the humanities, the purposeful application of a model requires a clear understanding of the relation between the modelled system (e.g., the weather) and the model (e.g., a computer-generated weather map).</itemCaption>
+							<itemLevels caption="Which of the following describes best your level of understanding of the model-system relation?">
+								<itemLevel>I possess no such level of insight</itemLevel>
+								<itemLevel>I am able to distinguish the model and the modelled system</itemLevel>
+								<itemLevel>I am able to infer about the modelled system from studying the model</itemLevel>
+								<itemLevel>I am able to see limitations to what can be inferred about the modelled system from studying the model</itemLevel>
+								<itemLevel>I am able to adjust or modify a model to alleviate its limitations</itemLevel>
+								<itemLevel>I am able to devise a model from scratch for a well-defined purpose</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you develop this level of understanding of the model-system relation?">
+								<itemProof>I have read about the methodology of scientific modelling </itemProof>
+								<itemProof>I have consciously reflected about the limitations of models that I use</itemProof>
+								<itemProof>I have refrained from using a model in a situation where the model?s limits were exceeded</itemProof>
+								<itemProof>I have helped fellow students devising a model for a well-defined purpose</itemProof>
+								<itemProof>I have modified a model </itemProof>
+								<itemProof>I have deliberately chosen between two models in a practical case </itemProof>
+								<itemProof>I have actively searched the limits of applicability for a model</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Nature of Science</compTitle>
+					<compCaption>
+						<BSc>Has insight into the nature of science and technology (purpose, methods, differences and similarities between scientifi c fi elds, nature of laws, theories, explanations, role of the experiment, objectivity etc.).</BSc>
+						<MSc>Idem, and has knowledge of current debates about this.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>A. Insights into the nature of science</itemTitle>
+							<itemCaption>An understanding of the nature and essence of science, such as its purpose, its goals, the role of experiments, and the nature of laws, theories and explanations, can help one to assess the reliability of knowledge and the strength of evidence.</itemCaption>
+							<itemLevels caption="Which of the following describes best your level of insight into the nature of science?">
+								<itemLevel>I possess no such level of insight</itemLevel>
+								<itemLevel>I know that science has some characteristic features</itemLevel>
+								<itemLevel>I am able to recall the characteristic features of science</itemLevel>
+								<itemLevel>I am able to review scientific claims in the light of the features of science</itemLevel>
+								<itemLevel>I am able to appraise my own scientific results with respect to the features of science</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did I achieve this level of insight into the nature of science?">
+								<itemProof>I read about the characteristic features of science</itemProof>
+								<itemProof>I did exercises where I had to appraise scientific evidence from texts regarding the features of science</itemProof>
+								<itemProof>I took a course on philosophy of science</itemProof>
+								<itemProof>I analysed my own reasoning in terms of philosophy of science</itemProof>
+								<itemProof>I analysed reasoning of my fellow students in terms of philosophy of science</itemProof>
+								<itemProof>I routinely use terminology from the philosophy of science (? theory?, ? law?, ? hypothesis? , ?)</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Scientific Practice</compTitle>
+					<compCaption>
+						<BSc>Has insight into the scientifi c practice (research system, relation with clients, publication system, importance of integrity etc.).</BSc>
+						<MSc>Idem, and has knowledge of current debates about this.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>C. Insights into the practice of a scientific community</itemTitle>
+							<itemCaption>Scientific communities develop systems of rules and practical standards. These rules and standards reveal themselves, for example, in a particular publication system (i.e., format and reviewing).</itemCaption>
+							<itemLevels caption="Which of the following describes best your level of insight into the practice of a scientific community?">
+								<itemLevel>I possess no such level of insight</itemLevel>
+								<itemLevel>I have an understanding of the rules and standards of the practice of my scientific discipline</itemLevel>
+								<itemLevel>I have an understanding of the rationale behind the rules and standards of my scientific discipline</itemLevel>
+								<itemLevel>I am able to use these rules and standards in my own work</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve this level of insight into the practice of a scientific community?">
+								<itemProof>I have been engaged in a (staged) peer reviewing process that mimics scientific practice</itemProof>
+								<itemProof>I have organised my work in accord with the standards of scientific practice</itemProof>
+								<itemProof>I explained the rules and standards of the practice of my discipline to fellow students of my discipline</itemProof>
+								<itemProof>I explained the rules and standards of the practice of my discipline to fellow students of an other discipline</itemProof>
+								<itemProof>I have interacted with external parties in accordance with the rules and standards of scientific practice </itemProof>
+								<itemProof>I have presented my work in accord with the rules and standards of scientific practice</itemProof>
+								<itemProof>I have explicitly checked which rules and standards apply to my own research</itemProof>
+								<itemProof>I took part in discussions about integrity in scientific practice</itemProof>
+								<itemProof>I have been involved in the process of reviewing scientific literature</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Contribution</compTitle>
+					<compCaption>
+						<BSc>Is able to document adequately the results of research and design with a view to contributing to the development of knowledge in the field and beyond.</BSc>
+						<MSc>Idem, and is able to publish these results.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>no item</itemTitle>
+							<itemCaption>no item caption</itemCaption>
+							<itemLevels caption="-- no text --">
+								<itemLevel> -- nothing -- </itemLevel>
+							</itemLevels>
+							<itemProofs caption="-- no text --">
+								<itemProof> -- nothing -- </itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+			</comps>
+		</compArea>
+		<compArea>
+			<compAreaTitle>Basic Intellectual Skills</compAreaTitle>
+			<compAreaCaption>V. This section explores your competences concerning the ability to constructively criticize and develop arguments. Science is built on a variety of arguments, for example, logical and numerical arguments. Arguments refer to one's own arguments as well as to arguments of others. Constructive is a critique that not only looks for flaws, but also for possibilities of improvement.</compAreaCaption>
+			<comps>
+				<comp>
+					<compTitle>Critical Reflect</compTitle>
+					<compCaption>
+						<BSc>Is able (with supervision) to critically refl ect on his or her own thinking, decision making, and acting and to adjust these on the basis of this refl ection. </BSc>
+						<MSc>Idem, independently.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>[...]</itemTitle>
+							<itemCaption>[...].</itemCaption>
+							<itemLevels caption="Which of the following describes best your level of capability regarding lifelong learning?">
+								<itemLevel>I possess no such level of capability</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve this level of capability for lifelong learning?">
+								<itemProof>[...]</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Logical Reasoning</compTitle>
+					<compCaption>
+						<BSc>Is able to reason logically within the field and beyond; both ‘why’ and ‘what-if’ reasoning.</BSc>
+						<MSc>Is able to recognise fallacies.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>A. Logical arguments</itemTitle>
+							<itemCaption>With logical arguments, we refer to different modes of reasoning such as induction, deduction and buildinganalogies. Moreover, we include plausible explanations (answering the question 'why?') as well ashypothetical reasoning (answering the question 'what if?').</itemCaption>
+							<itemLevels caption="Which of the following describes best your level of insight into the practice of a scientific community?">
+								<itemLevel>I possess no such level of competence</itemLevel>
+								<itemLevel>I am able to understand a logical argument </itemLevel>
+								<itemLevel>I am able to criticize a logical argument (i.e., recognize a fallacy) </itemLevel>
+								<itemLevel>I am able to construct a (new) logical argument  </itemLevel>
+								<itemLevel>I am able to improve a logical argument  </itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve this level of capability for lifelong learning?">
+								<itemProof>I studied the rules of good logical reasoning</itemProof>
+								<itemProof>I have recognised examples of sound logical arguments</itemProof>
+								<itemProof>I have criticized logical arguments that are systematically flawed</itemProof>
+								<itemProof>I have criticized logical arguments of my fellow students</itemProof>
+								<itemProof>I have criticized logical arguments from publshed papers</itemProof>
+								<itemProof>I have improved logical arguments from publshed papers</itemProof>
+								<itemProof>I have criticized logical arguments from text books</itemProof>
+								<itemProof>I have improved logical arguments from text books</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Reasoning Modes</compTitle>
+					<compCaption>
+						<BSc>Is able to recognise modes of reasoning (induction, deduction, analogy etc.) within the fi eld. [</BSc>
+						<MSc>Is able to apply these modes of reasoning</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>no item</itemTitle>
+							<itemCaption>no item caption</itemCaption>
+							<itemLevels caption="-- no text -- ">
+								<itemLevel>-- nothing -- </itemLevel>
+							</itemLevels>
+							<itemProofs caption="-- no text --">
+								<itemProof>-- nothing --</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Asking Adequate Questions</compTitle>
+					<compCaption>
+						<BSc>Is able to ask adequate questions, and has a critical yet constructive attitude towards analysing and solving simple problems in the fi eld.</BSc>
+						<MSc>Idem, for more complex (real-life) problems.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>no Item</itemTitle>
+							<itemCaption>no item caption </itemCaption>
+							<itemLevels caption="-- no text --">
+								<itemLevel>--nothing--</itemLevel>
+							</itemLevels>
+							<itemProofs caption="-- no text -- ">
+								<itemProof>-- no text --</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Incomplete or Irrelevant Data</compTitle>
+					<compCaption>
+						<BSc>Is able to form a well-reasoned opinion in the case of incomplete or irrelevant data. [</BSc>
+						<MSc>Idem, taking account of the way in which that data came into being. [</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>no item</itemTitle>
+							<itemCaption>no item caption</itemCaption>
+							<itemLevels caption="-- no text -- ">
+								<itemLevel>--nothing--</itemLevel>
+							</itemLevels>
+							<itemProofs caption="--no caption--">
+								<itemProof>-- no text --</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Standpoint w.r.t. Scientific Argument</compTitle>
+					<compCaption>
+						<BSc>Is able to take a standpoint with regard to a scientifi c argument in the fi eld. [</BSc>
+						<MSc>Idem, and is able to assess this critically as to its value. [</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>no item</itemTitle>
+							<itemCaption>no item caption</itemCaption>
+							<itemLevels caption="-- no text --">
+								<itemLevel> -- nothing -- </itemLevel>
+							</itemLevels>
+							<itemProofs caption="-- no text --">
+								<itemProof> -- nothing -- </itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Basic Numerical Skills</compTitle>
+					<compCaption>
+						<BSc>Possesses basic numerical skills, and has an understanding of orders of magnitude. </BSc>
+						<MSc>Idem. [</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>B. Numerical arguments</itemTitle>
+							<itemCaption>A numerical argument involves calculations, as, for example, in data analyses or engineering solutions.Criticizing a numerical argument includes the ability to make a reasonable guess for the expected outcome of a calculation.</itemCaption>
+							<itemLevels caption="Which of the following describes best your competence level regarding constructively criticizing numerical arguments?">
+								<itemLevel>I possess no such level of competence</itemLevel>
+								<itemLevel>I am able to understand a numerical argument.</itemLevel>
+								<itemLevel>I am able to criticize a numerical argument (i.e., recognize a fallacy)</itemLevel>
+								<itemLevel>I am able to construct a (new) numerical argument</itemLevel>
+								<itemLevel>I am able to improve a numerical argument </itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you reach this competence level regarding constructively criticizing numerical arguments?-">
+								<itemProof>I have spotted a flaw in a quantitative arguments </itemProof>
+								<itemProof>I regularly use elementary calculations with paper and pencil </itemProof>
+								<itemProof>I regularly use computer calculations with standard tools (Excel, Matlab, ...)</itemProof>
+								<itemProof>I regularly use computer calculations using programs or scripts I wrote myself </itemProof>
+								<itemProof>I encountered examples of where (computerized) numerical calculation go wrong </itemProof>
+								<itemProof>I analyzed examples of incorrect computer calculations </itemProof>
+								<itemProof>I analyzed examples of incorrect computer calculations </itemProof>
+								<itemProof>I criticized quantitative arguments of my fellow students</itemProof>
+								<itemProof>I criticized my own quantitative arguments</itemProof>
+								<itemProof>I frequently make reasonable guesses about outcomes of calculations</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+			</comps>
+		</compArea>
+		<compArea>
+			<compAreaTitle>Coperating and Communicating</compAreaTitle>
+			<compAreaCaption>VI. This section explores your aspirations concerning communicational skills. In daily practice, whether as a scholar as a nonacademic professional, communication is needed to convey knowledge andpersuade others. </compAreaCaption>
+			<comps>
+				<comp>
+					<compTitle>Communicate in Writing</compTitle>
+					<compCaption>
+						<BSc>Is able to communicate in writing about the results of learning, thinking and decision making with colleagues and non-colleagues. </BSc>
+						<MSc>Is able to communicate in writing about research and solutions to problems with colleagues, non-colleagues and other involved parties</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>A. Progress reports</itemTitle>
+							<itemCaption>Your thought processes, your learning experiences, and your decision-making are routinely documented in progress reports.</itemCaption>
+							<itemLevels caption="Which of the following describes best your level of skill in writing systematic progress reports?">
+								<itemLevel>I possess no such level of capability</itemLevel>
+								<itemLevel>I know the common structure of such reports and recognize departures from this structure</itemLevel>
+								<itemLevel>I am proficient to write such reports suitable for internal use</itemLevel>
+								<itemLevel>I am proficient to write such reports suitable for publication</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve this level of systematic progress report writing skills? ">
+								<itemProof>I have read prototypical progress reports</itemProof>
+								<itemProof>I regularly document my work in a progress report format - for my own use</itemProof>
+								<itemProof>I regularly document my work in a progress report format - for others to read</itemProof>
+								<itemProof>I regularly comment comment on progress reports of my fellow students</itemProof>
+								<itemProof>I consulted instructions (such as handbooks) on when and how to write progress reports</itemProof>
+								<itemProof>I ask for feedback on the content of my  progress reports</itemProof>
+								<itemProof>I ask for feedback on the structure of my  progress reports</itemProof>
+								<itemProof>I revise my progress reports on the basis of feedback I received on structure and contents</itemProof>
+							</itemProofs>
+						</item>
+						<item>
+							<itemTitle>B. Journal Article</itemTitle>
+							<itemCaption>In science and technology, innovations and new knowledge are generally published in specialized journals. These articles follow a given structure. By and large, authors are expected to write in such a way that they meet readers' and editors' expectations. </itemCaption>
+							<itemLevels caption="Which of the following describes best your level of skill in writing jounral articles?">
+								<itemLevel>I possess no such level of capability</itemLevel>
+								<itemLevel>I know the common structure of journal articles and recognize departures from this structure</itemLevel>
+								<itemLevel>I am proficient to write journal articles suitable for internal use</itemLevel>
+								<itemLevel>I am proficient to write journal articles suitable for publication</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve this level of systematic journal article writing skills? ">
+								<itemProof>I have read prototypical journal articles</itemProof>
+								<itemProof>I regularly document my work in a journal article format - for my own use</itemProof>
+								<itemProof>I regularly document my work in a journal article format - for others to read</itemProof>
+								<itemProof>I regularly comment comment on journal article of my fellow students</itemProof>
+								<itemProof>I consulted instructions (such as handbooks) on when and how to write journal article</itemProof>
+								<itemProof>I ask for feedback on the content of my  journal articles</itemProof>
+								<itemProof>I ask for feedback on the structure of my  journal articles</itemProof>
+								<itemProof>I revise my journal articles on the basis of feedback I received on structure and contents</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Communicate Verbally</compTitle>
+					<compCaption>
+						<BSc>Is able to communicate verbally about the results of learning, thinking and decision making with colleagues and non-colleagues. </BSc>
+						<MSc>Is able to communicate verbally about research and solutions to problems with colleagues, non-colleagues and other involved parties.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>C. Conference presentations</itemTitle>
+							<itemCaption>Formal talks require special presentational skills. Presenting to an audience of academic peers means addressing people who are more or less at a similar level of expertise. They can form a challenging audience, as they are similarly knowledgeable and, often, do not share the presenter's point of view. </itemCaption>
+							<itemLevels caption="Which of the following describes best your level of skill in giving presentations to an academic audience? ">
+								<itemLevel>I possess no such skills</itemLevel>
+								<itemLevel>I know the standard structure of such presentations and recognize departures from this structure </itemLevel>
+								<itemLevel>I am proficient to present at a conference with peers from their own discipline </itemLevel>
+								<itemLevel>I am proficient to present at a conference with peers from other disciplines</itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did I achieve desired level of presentational skills to address different academic
+audiences? ">
+								<itemProof>I regularly listen to presentations of others </itemProof>
+								<itemProof>I regularly I go to conferences  </itemProof>
+								<itemProof>I regularly present to a panel of experts </itemProof>
+								<itemProof>I regularly give practice research-presentations </itemProof>
+								<itemProof>I consulted instructions (such as handbooks) on when and how to give presentations</itemProof>
+								<itemProof>I ask for feedback on the content of my  presentations</itemProof>
+								<itemProof>I ask for feedback on the structure of my  presentations</itemProof>
+								<itemProof>I revise my presentations on the basis of feedback I received on structure and contents</itemProof>
+								<itemProof>I took a course in theatre skills</itemProof>
+							</itemProofs>
+						</item>
+						<item>
+							<itemTitle>D. General public presentations</itemTitle>
+							<itemCaption>Oral presentations to the general public can be difficult, because complicated issues have to be explained in a relatively simplistic manner. Didactic skills and the use of well-tailored metaphors, among others, can help n audience to better understand.  </itemCaption>
+							<itemLevels caption="Which of the following describes best your level of skill in giving presentations to the general public?  ">
+								<itemLevel>I possess no such skills</itemLevel>
+								<itemLevel>I recognize such presentations by their content and by their format </itemLevel>
+								<itemLevel>I am proficient to present to the general public  </itemLevel>
+								<itemLevel>I am proficient to present to the general public and actively seek for opportunities to do so </itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve your level of presentational skills to address the general public? ">
+								<itemProof>I regularly listen to presentations of others  </itemProof>
+								<itemProof>I consciously scan my presentations for unnecessarily  complicated wording  </itemProof>
+								<itemProof>I actively focus on the appeal of their presentation  </itemProof>
+								<itemProof>I ask for feedback on the content of my  presentations</itemProof>
+								<itemProof>I ask for feedback on the structure of my  presentations</itemProof>
+								<itemProof>I revise my presentations on the basis of feedback I received on structure and contents</itemProof>
+								<itemProof>I took a course in theatre skills</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Second Language</compTitle>
+					<compCaption>
+						<BSc>Idem to above (verbally and in writing), but in a second language</BSc>
+						<MSc>Idem to above (verbally and in writing), but in a second language.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>no item</itemTitle>
+							<itemCaption>no item caption</itemCaption>
+							<itemLevels caption="-- no text -- ">
+								<itemLevel>-- nothing -- </itemLevel>
+							</itemLevels>
+							<itemProofs caption="-- no text --">
+								<itemProof>-- nothing --</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Follow Debates</compTitle>
+					<compCaption>
+						<BSc>Is able to follow debates about both the fi eld and the place of the fi eld in society.</BSc>
+						<MSc>Is able to debate about both the fi eld and the place of the fi eld in society. </MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>no item</itemTitle>
+							<itemCaption>no item caption</itemCaption>
+							<itemLevels caption="-- no text -- ">
+								<itemLevel>-- nothing -- </itemLevel>
+							</itemLevels>
+							<itemProofs caption="-- no text --">
+								<itemProof>-- nothing --</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Professional Behavior</compTitle>
+					<compCaption>
+						<BSc>Is characterised by professional behaviour. This includes: drive, reliability, commitment, accuracy, perseverance and independence. </BSc>
+						<MSc>Idem.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>no item</itemTitle>
+							<itemCaption>no item caption</itemCaption>
+							<itemLevels caption="-- no text -- ">
+								<itemLevel>-- nothing -- </itemLevel>
+							</itemLevels>
+							<itemProofs caption="-- no text --">
+								<itemProof>-- nothing --</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Project-Based Work</compTitle>
+					<compCaption>
+						<BSc>Is able to perform project-based work: is pragmatic and has a sense of responsibility; is able to deal with limited sources; is able to deal with risks; is able to compromise. </BSc>
+						<MSc>Idem, for more complex projects. [</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>no item</itemTitle>
+							<itemCaption>no item caption</itemCaption>
+							<itemLevels caption="-- no text -- ">
+								<itemLevel>-- nothing -- </itemLevel>
+							</itemLevels>
+							<itemProofs caption="-- no text --">
+								<itemProof>-- nothing --</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Interdisciplinary Team</compTitle>
+					<compCaption>
+						<BSc>Is able to work within an interdisciplinary team</BSc>
+						<MSc>Idem, for a team with great disciplinary diversity. [</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>no item</itemTitle>
+							<itemCaption>no item caption</itemCaption>
+							<itemLevels caption="-- no text -- ">
+								<itemLevel>-- nothing -- </itemLevel>
+							</itemLevels>
+							<itemProofs caption="-- no text --">
+								<itemProof>-- nothing --</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Team Roles and Social Dynamics</compTitle>
+					<compCaption>
+						<BSc>Has insight into, and is able to deal with, team roles and social dynamics</BSc>
+						<MSc>Is able to assume the role of team leader.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>no item</itemTitle>
+							<itemCaption>no item caption</itemCaption>
+							<itemLevels caption="-- no text -- ">
+								<itemLevel>-- nothing -- </itemLevel>
+							</itemLevels>
+							<itemProofs caption="-- no text --">
+								<itemProof>-- nothing --</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+			</comps>
+		</compArea>
+		<compArea>
+			<compAreaTitle>Tempral and Social Context</compAreaTitle>
+			<compAreaCaption>VII. Products of science, such as knowledge and technology, are having economic, social, cultural and ethical consequences. This section explores your ambitions concerning the ability of students to take the societal context of science and technology into account. </compAreaCaption>
+			<comps>
+				<comp>
+					<compTitle>Developments in History</compTitle>
+					<compCaption>
+						<BSc>Understands relevant (internal and external) developments in the history of the fi elds concerned. This includes the interaction between the internal developments (of ideas) and the external (social) developments</BSc>
+						<MSc>Integrates aspects of this in scientifi c work.</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>A. Historical developments</itemTitle>
+							<itemCaption>Science and technology are shaped by social, economic and cultural factors. Beliefs, ideas and methods do not come out of the blue, but have their origins in the history of a discipline, while the disciplines, in turn, are also the result of social, economic and cultural developments of the past. </itemCaption>
+							<itemLevels caption="Which of the following describes best your competence level intaking historical developments into account? ">
+								<itemLevel>I possess no such level of capability</itemLevel>
+								<itemLevel>I am able to describe historical developments of science and technology </itemLevel>
+								<itemLevel>I am able to understand historical developments of science and technology </itemLevel>
+								<itemLevel>I am able to describe historical developments of science and technology </itemLevel>
+								<itemLevel>I am able to describe historical developments of science and technology </itemLevel>
+								<itemLevel>I am able to describe historical developments of science and technology </itemLevel>
+							</itemLevels>
+							<itemProofs caption="How did you achieve this level of capability for lifelong learning?">
+								<itemProof>[...]</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Social Consequences</compTitle>
+					<compCaption>
+						<BSc>
+[...]
+</BSc>
+						<MSc>
+[...]
+</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>no item</itemTitle>
+							<itemCaption>no item caption</itemCaption>
+							<itemLevels caption="-- no text --">
+								<itemLevel> -- nothing -- </itemLevel>
+							</itemLevels>
+							<itemProofs caption="-- no text --">
+								<itemProof> -- nothing -- </itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Environmental Consequences</compTitle>
+					<compCaption>
+						<BSc>
+[...]
+</BSc>
+						<MSc>
+[...]
+</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>no item</itemTitle>
+							<itemCaption>no item caption</itemCaption>
+							<itemLevels caption="-- no text -- ">
+								<itemLevel>-- nothing -- </itemLevel>
+							</itemLevels>
+							<itemProofs caption="-- no text --">
+								<itemProof>-- nothing --</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Ethical Consequences</compTitle>
+					<compCaption>
+						<BSc>
+[...]
+</BSc>
+						<MSc>
+[...]
+</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>-- no text --</itemTitle>
+							<itemCaption>-- no text -- </itemCaption>
+							<itemLevels caption="-- no text --">
+								<itemLevel>I possess no such level of insight</itemLevel>
+							</itemLevels>
+							<itemProofs caption="-- no text -- ">
+								<itemProof>-- no text --</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+				<comp>
+					<compTitle>Roles of Professionals</compTitle>
+					<compCaption>
+						<BSc>
+[...]
+</BSc>
+						<MSc>
+[...]
+</MSc>
+					</compCaption>
+					<items>
+						<item>
+							<itemTitle>-- no text -- </itemTitle>
+							<itemCaption>-- no caption -- </itemCaption>
+							<itemLevels caption="-- no text -- ">
+								<itemLevel>I possess no such level of insight</itemLevel>
+							</itemLevels>
+							<itemProofs caption="--no caption--">
+								<itemProof>-- no text --</itemProof>
+							</itemProofs>
+						</item>
+					</items>
+				</comp>
+			</comps>
+		</compArea>
+	</compAreas>
+</sass>

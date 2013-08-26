@@ -1,0 +1,21 @@
+    <div class="container">
+
+      <form class="form-signin" method="post">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <p class="text-error">{$Errormessage}</p>
+        <input type="text" name="email" class="input-block-level" placeholder="Email address" value="{$Emailvalue}" autofocus="on">
+        <input type="password" name="password" class="input-block-level" placeholder="Password">
+		<p><a href="newaccount.php">Create Account</a></p>
+		<p><a href="newpassword.php">Forgotten Password</a></p>	
+        <button class="btn btn-large btn-primary" name="loginsubmit" type="submit">Sign in</button>
+      </form>
+
+    </div> <!-- /container -->
+
+        <!-- Load javascript at the end of the file to increase loading time. -->
+        <script type="text/javascript" src="js/jquery-2.0.2.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/element-control.js"></script>
+
+    </body>
+</html>
