@@ -87,23 +87,23 @@
 					$ItemProofCounter = 0;
 					$itemproofstatus = array();
 					$highest = 0;
+					$status = NULL;
 					foreach($item->itemLevels->itemLevel as $itemLevel) {
 						
-						$highest = 0;
 						if (!empty($RB_item)) {
 							foreach($RB_item as $user_item) {
 								if ( !(strcmp($user_item->competenceid, $CompetenceID) != 0) ) {
+									// Set the highest itemlevel
 									$highest = ($highest < (int)$user_item->itemlevel) ? (int)$user_item->itemlevel : $highest;
-									if ( !(strcmp($user_item->itemlevel, $ItemLevelCounter) != 0 ) ) {
-										$itemlevelstatus[$user_item->itemlevel] = (int)$user_item->status;
+									if ( (int)$user_item->itemlevel == $ItemLevelCounter )  {
+										$status = (int)$user_item->status;
 										break;
 									} else {
-										$itemlevelstatus[$ItemLevelCounter] = STATUS_DEFAULT;
+										$status = STATUS_DEFAULT;
 									}		
 								}
 							}
 						} 				
-						$status = (empty($itemlevelstatus)) ? STATUS_DEFAULT : $itemlevelstatus[$ItemLevelCounter];
 						$itemlevels[] = array( 
 											"ItemLevelID" => $ItemLevelCounter,
 											"LevelDescription" => (string)$itemLevel,
@@ -112,37 +112,30 @@
 											"Status" => $status);
 						$ItemLevelCounter++;
 					}
-					//if (!empty($itemlevelstatus)) var_dump($itemlevels);
+					
 					// Then we get our competence proofs and their descriptions...
-
 					foreach($item->itemProofs->itemProof as $itemProof) {
 						
 						if (!empty($RB_item)) {
 							foreach($RB_item as $user_item) {
 								if ( !(strcmp($user_item->competenceid, $CompetenceID) != 0) ) {
-		//							if ( (int)$user_item->itemlevel == $highest) && ((int)$user_item->itemproof == $ItemProofCounter) ) {
-									$status = (int)$user_item->status;
-									echo $user_item->competenceid . $status;
-								} else {
-									$status = STATUS_DEFAULT;	
+									if ( (int)$user_item->itemproof == $ItemProofCounter && (int)$user_item->itemlevel == $highest)  {
+										$status = (int)$user_item->status;
+										break;
+									} else {
+										$status = STATUS_DEFAULT;
+									}
+									
 								}
-								break;
 							}
-						} else {
-							$status = STATUS_DEFAULT;
-						}
-						 
-					//	if(!(strcmp($CompetenceID,"disciplinaryknowledge1") != 0) ) var_dump($status);
-						
+						}						
 						$itemproofs[] = array(
 											"ItemProofID" => (string)$ItemProofCounter,
 											"ProofDescription" => (string)$itemProof,
 											"Status" => $status);
 						$ItemProofCounter++;
 					}
-					
-					//if(!(strcmp($CompetenceID,"disciplinaryknowledge1") != 0) ) var_dump($itemproofs);
-					
+										
 					
 					// We put all of these descriptions in one array, which we can access in our template file.
 					$items = array( "ItemLevels" => $itemlevels, 

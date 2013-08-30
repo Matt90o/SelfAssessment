@@ -26,9 +26,9 @@
 	/*
 	 * Item Statuses
 	 */
-	 define('STATUS_PENDING', 0);
-	 define('STATUS_APPROVED', 1);
-	 define('STATUS_DEFAULT', 2);
+	 define('STATUS_DEFAULT', 0);
+	 define('STATUS_PENDING', 1);
+	 define('STATUS_APPROVED', 2);
 	 define('STATUS_DISABLED',3);
 	 
 	 /*

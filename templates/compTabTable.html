@@ -36,13 +36,17 @@
 						<caption><h6>{$value.LevelCaption}</h6></caption>
 					
 						{loop="value.Items.ItemLevels"}
-							{if="$value.Status < 1"}<tr class="warning">
-							{elseif="$value.Status > 1"}<tr>
-							{else}<tr class="success">{/if}
+							{if="$value.Status == 0"}<tr>
+							{elseif="$value.Status == 1"}<tr class="warning">
+							{elseif="$value.Status == 2"}<tr class="success">
+							{else}<tr class="error">	
+								{/if}
 							<td>
-								{if="$value.Status < 1"}<i class="icon-time"></i>
-								{elseif="$value.Status > 1"}<input type="radio" name="itemlevel" id="ItemLevel{$value.ItemLevelID}" value="{$value.ItemLevelID}">
-								{else}<i class="icon-ok"></i>{/if}
+								{if="$value.Status == 0"}<input type="radio" name="itemlevel" id="ItemLevel{$value.ItemLevelID}">
+								{elseif="$value.Status == 1"}<i class="icon-time"></i>
+								{elseif="$value.Status == 2"}<i class="icon-ok"></i>
+								{else}<i class="icon-remove"></i>
+								{/if}
 							</td>
 							<td>{$value.LevelDescription}</td>
 							</tr>
@@ -51,8 +55,19 @@
 						
 					<table class="table table-striped table-condensed table-hover">
 						<caption><h6>{$value.ProofCaption}</h6></caption>
-						{loop="value.Items.ItemProofs"}<tr>
-							<td><input type="checkbox" name="itemproof[{$value.ItemProofID}]" id="ItemProof{$value.ItemProofID}" value="1"{if="$value.Status"} checked{/if}></td>
+						{loop="value.Items.ItemProofs"}
+							{if="$value.Status == 0"}<tr>
+							{elseif="$value.Status == 1"}<tr class="warning">
+							{elseif="$value.Status == 2"}<tr class="success">
+							{else}<tr class="error">	
+							{/if}
+							<td>
+								{if="$value.Status == 0"}<input type="checkbox" name="itemproof[{$value.ItemProofID}]" id="ItemProof{$value.ItemProofID}">
+								{elseif="$value.Status == 1"}<i class="icon-time"></i>
+								{elseif="$value.Status == 2"}<i class="icon-ok"></i>
+								{else}<i class="icon-remove"></i>
+								{/if}								
+							</td>
 							<td>{$value.ProofDescription}</td>
 						</tr>
 						{/loop}</table>
