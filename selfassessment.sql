@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `item` (
   `competenceid` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `itemlevel` tinyint(3) unsigned DEFAULT NULL,
   `itemproof` tinyint(3) unsigned DEFAULT NULL,
-  `status` tinyint(3) unsigned DEFAULT NULL,
+  `validated` tinyint(3) unsigned DEFAULT NULL,
   `timestamp` date DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=8 ;
@@ -45,9 +45,9 @@ INSERT INTO `item` (`id`, `userid`, `competenceid`, `itemlevel`, `itemproof`, `v
 (2, 1, 'designing1', 0, 1, 1, '2013-08-16'),
 (3, 1, 'designing1', 0, 3, 1, '2013-08-16'),
 (4, 1, 'designing1', 0, 5, 1, '2013-08-16'),
-(5, 1, 'designing1', 1, 0, 2, '2013-08-16'),
-(6, 1, 'designing1', 1, 3, 2, '2013-08-16'),
-(7, 1, 'designing1', 1, 7, 2, '2013-08-16');
+(5, 1, 'designing1', 1, 0, 0, '2013-08-16'),
+(6, 1, 'designing1', 1, 3, 0, '2013-08-16'),
+(7, 1, 'designing1', 1, 7, 0, '2013-08-16');
 
 -- --------------------------------------------------------
 

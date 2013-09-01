@@ -10,7 +10,7 @@
 		public function logout()
 		{
 			unset($_SESSION['userID']);
-			header('Location: http://localhost/');
+			header('Location: index.php');
 		}
 		
 		public function login()
