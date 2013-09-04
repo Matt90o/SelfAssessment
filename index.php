@@ -37,20 +37,21 @@
 		if (isset($_POST['submitstudent'])) {
 				
 			if (!isset($_POST['itemproof'])) {
-				$errormessage = "Please enter itemproofs to ";
+				$errormessage = "Please enter itemproofs to submit.";
+			} else {
+				// Update database
+				foreach($_POST['itemproof'] as $prooflevel => $proof) {
+					$RB_item = R::dispense('item');
+					$RB_item->userid = $RB_user->id;
+					$RB_item->competenceid = $_POST['competenceid'];
+					$RB_item->status = STATUS_PENDING; // Status can also be used to assign a numeric value from 0 - 10. 
+					$RB_item->timestamp = R::isoDate();
+					$RB_item->itemproof = $prooflevel;
+					R::store($RB_item);
+				}
 			}
-			// Update database
-			foreach($_POST['itemproof'] as $prooflevel => $proof) {
-				$RB_item = R::dispense('item');
-				$RB_item->userid = $RB_user->id;
-				$RB_item->competenceid = $_POST['competenceid'];
-				$RB_item->itemlevel = $_POST['itemlevel'];
-				$RB_item->status = STATUS_PENDING;
-				$RB_item->timestamp = R::isoDate();
-				$RB_item->itemproof = $prooflevel;
-				R::store($RB_item);
-			}
-			//$RB_user
+		} elseif(isset($_POST["submitsupervisor"])) {
+			R::exec('UPDATE item SET status = :new_status WHERE userid = :user_id AND status = :current_status', array(':user_id' => $RB_user->id, ':current_status' => STATUS_PENDING, ':new_status' => STATUS_APPROVED));
 		}
 		
 		// TODO: Check to see if user is supervisor. If so, present the user with the administration form. 
@@ -61,9 +62,7 @@
 		$HEADER = $TPL->draw('header', $return_string = true);
 		$BODY = $TPL->draw('template', $return_string = true);
 		$FOOTER = $TPL->draw('footer', $return_string = true);
-				
-		
-		
+
 	} else {
 		// Assign our Login template to our $TPL object
 		$TPL->assign('Studentname', '');

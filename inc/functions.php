@@ -33,7 +33,7 @@
 		$xml = simplexml_load_file($program->xmlpath);
 		
 		// Get all items belonging to the user, highest itemlevel first
-		$RB_item = R::find('item', 'userid = :user_id order by itemlevel desc', array(':user_id' => $RB_user->id));
+		$RB_item = R::find('item', 'userid = :user_id', array(':user_id' => $RB_user->id));
 
 		// Let's build our Navigation bar first and put it inside an array with correct HTML mark-up.
 		// We also build our tags here to identify each competence. We need this to correctly submit the form by the user.
@@ -88,6 +88,8 @@
 					$itemproofstatus = array();
 					$highest = 0;
 					$status = NULL;
+					
+					/* Get Itemlevels. 
 					foreach($item->itemLevels->itemLevel as $itemLevel) {
 						
 						if (!empty($RB_item)) {
@@ -112,6 +114,7 @@
 											"Status" => $status);
 						$ItemLevelCounter++;
 					}
+					*/
 					
 					// Then we get our competence proofs and their descriptions...
 					foreach($item->itemProofs->itemProof as $itemProof) {
@@ -124,8 +127,7 @@
 										break;
 									} else {
 										$status = STATUS_DEFAULT;
-									}
-									
+									}	
 								}
 							}
 						}						

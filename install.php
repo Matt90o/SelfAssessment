@@ -54,11 +54,16 @@
 								  `xmlpath` varchar(70) NOT NULL,
 								  PRIMARY KEY (`id`)
 								)  ");
+			mysqli_query($con, "INSERT INTO `program` (`id`, `title`, `xmlpath`) VALUES
+								(1, 'Fusion Science (Master)', 'xml/SelfAssessFS.xml'),
+								(2, 'Electrical Engineering (Master)', 'xml/SelfAssessEE.xml'),
+								(3, 'Mechanical Engineering (Master)', 'xml/SelfAssessME.xml'),
+								(4, 'Chemical Engineering (Master)', 'xml/SelfAssessCE.xml')");
 			
 			mysqli_close($con);
 			
 			echo '<p>Setup for the Webtool was succesfull. Redirecting you to the webtool.</p>';
-	//		header('Refresh: 5; url=index.php');
+			header('Refresh: 5; url=index.php');
 		}
 	}
 ?>
