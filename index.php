@@ -50,9 +50,8 @@
 					R::store($RB_item);
 				}
 			}
-		} elseif(isset($_POST["submitsupervisor"])) {
+		} elseif(isset($_POST["submitsupervisor"]))
 			R::exec('UPDATE item SET status = :new_status WHERE userid = :user_id AND status = :current_status', array(':user_id' => $RB_user->id, ':current_status' => STATUS_PENDING, ':new_status' => STATUS_APPROVED));
-		}
 		
 		// TODO: Check to see if user is supervisor. If so, present the user with the administration form. 
 		// In administration form the administrator can call the generate_webtool function for every student. 

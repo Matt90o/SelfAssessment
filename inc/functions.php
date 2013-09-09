@@ -1,5 +1,6 @@
 <?php
-	function generate_webtool($userID) {
+	function generate_webtool($userID) 
+	{
 		
 		// Define our global variables which our generate_template function will affect.
 		global 	$TPL, $RB_user,
@@ -37,7 +38,8 @@
 
 		// Let's build our Navigation bar first and put it inside an array with correct HTML mark-up.
 		// We also build our tags here to identify each competence. We need this to correctly submit the form by the user.
-		foreach($xml->compAreas->compArea as $compArea) { 
+		foreach($xml->compAreas->compArea as $compArea) 
+		{ 
 			$compAreaTitle = (string)$compArea->compAreaTitle;
 			$tag = explode(" ", $compArea->compAreaTitle);
 			$newtag = '';
@@ -55,7 +57,8 @@
 		// This giant loop gets all our info from the XML and builds the output. Our template handles the correct HTML mark-up.
 		
 		// Our outer loop consists of looping through the Competence Area's
-		foreach($xml->compAreas->compArea as $compArea) {
+		foreach($xml->compAreas->compArea as $compArea) 
+		{
 			// In our outer loop we get our Competence Area Title and we assign a tag to each Area.
 			// We need this tag in order to identify the pagination for the correct Competence Area.
 			$compAreaTitle = (string)$compArea->compAreaTitle;
@@ -68,12 +71,12 @@
 			$pages = array();
 			
 			// We loop through each competence, and get our information from these loops
-			foreach($compArea->comps->comp as $comp) {
+			foreach($compArea->comps->comp as $comp) 
+			{
 				$items = array();
-				
 				// In this loop all of our itemproofs and levels will be imported into the array.
-				foreach($comp->items->item as $item) {
-				
+				foreach($comp->items->item as $item) 
+				{				
 					// First we create an ID for each competence page. This ID is built from the Competence Area Tag and a counter for the page number.
 					// This ID is also used to map the Student information to the correct Competences.
 					$CompetenceID = $tag . $CompAreaCounter;
@@ -117,8 +120,8 @@
 					*/
 					
 					// Then we get our competence proofs and their descriptions...
-					foreach($item->itemProofs->itemProof as $itemProof) {
-						
+					foreach($item->itemProofs->itemProof as $itemProof) 
+					{
 						if (!empty($RB_item)) {
 							foreach($RB_item as $user_item) {
 								if ( !(strcmp($user_item->competenceid, $CompetenceID) != 0) ) {
@@ -186,9 +189,9 @@
 		$TPL->assign('Javascript', $javascript);
 	}
 
-	function generate_html() {
+	function generate_html() 
+	{
 		global $TPL, $HEADER, $BODY, $FOOTER;
-						
 		echo $HEADER . $BODY . $FOOTER;
 	}
 ?>
