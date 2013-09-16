@@ -10,7 +10,10 @@
 	} else {
 		// Check if the login form has been filled in, if so check if we find a record in the database.
 		if (isset($_POST['loginsubmit'])) {
+			// First get user credentials by email, if this does not work get user credentials by studentid.
 			$RB_user = R::findOne( 'user','email = :email AND password = :password', array(':email' => $_POST['email'], ':password' => md5($_POST['password'])) );
+			if ($RB_user == NULL)
+				$RB_user = R::findOne( 'user','studentid = :studentid AND password = :password', array(':studentid' => $_POST['email'], ':password' => md5($_POST['password'])) );
 			if ($RB_user != NULL) {
 				$RB_user->login();
 			} else {
@@ -31,6 +34,10 @@
 	if($RB_user->id) {
 		// We generate our full webtool. A very large portion of the code is present in this function.
 		// It fills in our global variables needed to display the webtool.
+		
+		// TODO: Check to see if user is supervisor. If so, present the user with the administration form. 
+		// TODO: Forward to admin.php or to student.php
+		
 		$TPL->assign('LoggedIn', true);
 		
 		// Check if user has submitted the webtool.

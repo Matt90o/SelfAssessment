@@ -17,7 +17,9 @@
 	 * Error messages
 	 */
 	define('ERROR_EMAILPASSWORD','The Email address or password you entered is incorrect. <small><a href="newpassword.php">Forgot your password?</a></small>');
-	define('ERROR_STUDENTID','The Student ID you entered is invalid.');
+	define('ERROR_EMAILREGISTERED', 'The Email address you entered is already registered. <small><a href="newpassword.php">Forgot your password?</a></small>');
+	define('ERROR_STUDENTIDINVALID','The Student ID you entered is invalid.');
+	define('ERROR_STUDENTIDREGISTERED', 'The Student ID you entered is already registered. <small><a href="newpassword.php">Forgot your password?</a></small>');
 	define('ERROR_MINPASSWORD','The chosen password needs to be at least 6 characters long.');
 	define('ERROR_REPEATPASSWORD','The passwords do not match.');
 	define('ERROR_FIRSTNAME','The first name you entered is invalid.');
@@ -32,8 +34,9 @@
 	 define('STATUS_DISABLED',3);
 	 
 	 /*
-	  * Supervisor ID
+	  * User types (UT)
 	  */
-	  define('ID_STUDENT', 0);
-	  define('ID_SUPERVISOR', md5('8185cb69369cbdce61a033c6d046eea1'));
+	  define('UT_STUDENT', 0);
+	  define('UT_SUPERVISOR', 1);
+	  define('UT_SUPERUSER', 2);
 ?>

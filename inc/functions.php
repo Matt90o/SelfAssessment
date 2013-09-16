@@ -113,7 +113,6 @@
 											"ItemLevelID" => $ItemLevelCounter,
 											"LevelDescription" => (string)$itemLevel,
 											
-											// TODO: Check if it is checked in the database
 											"Status" => $status);
 						$ItemLevelCounter++;
 					}

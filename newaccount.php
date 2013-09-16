@@ -16,17 +16,22 @@
 			array_push($errormessage, 'The Email address you entered is incorrect.');
 		} else {
 			// If the Email address is valid, check if the email address is already registered.			
-			$user = R::findOne( 'user','email = :email', array(':email' => $_POST['email'],) );
+			$user = R::findOne('user','email = ?', array( $_POST['email']) );
 			if ($user != NULL)
-				array_push($errormessage, ERROR_EMAILPASSWORD);
+				array_push($errormessage, ERROR_EMAILREGISTERED);
 		}
 		
 		// Check for a valid student ID
-		if (strlen($_POST['studentID']) != 7)
-			array_push($errormessage,  ERROR_STUDENTID);
-		else 
-			$TPL->assign('StudentIDvalue', $_POST['studentID']);
-		
+		if (strlen($_POST['studentID']) != 7) {
+			array_push($errormessage,  ERROR_STUDENTIDINVALID);
+		} else {
+			// If the student ID is valid, check if the student id is already registered. 
+			$user = R::findOne('user', 'studentid = ?', array( $_POST['studentID'] ));
+			if ($user != NULL) {
+				array_push($errormessage, ERROR_STUDENTIDREGISTERED);
+				$TPL->assign('StudentIDvalue', $_POST['studentID']);
+			}
+		}
 		// Check for a valid name
 		if (strlen($_POST['firstname']) < 2) 
 			array_push($errormessage, ERROR_FIRSTNAME);
@@ -52,7 +57,7 @@
 			$RB_user->studentid = $_POST['studentID'];
 			$RB_user->password = md5($_POST['password']);
 			$RB_user->email = $_POST['email'];
-			$RB_user->usertype = ID_STUDENT;
+			$RB_user->usertype = UT_STUDENT;
 			
 			// We will insert the program as a program_id into the database. 
 			foreach($programarray as $program) {
