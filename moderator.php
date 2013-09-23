@@ -14,7 +14,7 @@
 	if(isset($_GET['logout']))
 		$RB_user->logout();
 	
-	if($RB_user->id) {
+	if($RB_user->id && $RB_user->usertype == UT_MODERATOR) {
 	
 	}
 ?>

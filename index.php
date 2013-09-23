@@ -29,6 +29,7 @@
 			$RB_user->logout();
 		} else {
 			$TPL->assign('Usertype', $RB_user->usertype);
+			$TPL->assign('LoggedIn', true);
 			header('Location: ' . $RB_user->usertype . '.php');
 		}
 	} else {

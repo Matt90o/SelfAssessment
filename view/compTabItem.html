@@ -87,7 +87,9 @@
 						{/loop}</table>
 						
 						<button type="submit" name="submitstudent" class="btn">Submit for Approval</button>
+						{if="$Usertype == 'moderator' || $Usertype == 'administrator'"}
 						<button type="submit" name="submitsupervisor" class="btn">Approve Pending Items (for debug purposes)</button>
+						{/if}
 				</form>
 			</div>
 		</div>
