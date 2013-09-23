@@ -34,9 +34,16 @@
 	 define('STATUS_DISABLED',3);
 	 
 	 /*
+	  * Item Options
+	  */
+	 define('OPTION_YES', 'yes');
+	 define('OPTION_NO', 'no');
+	 define('OPTION_NA', 'na'); 
+	 
+	 /*
 	  * User types (UT)
 	  */
-	  define('UT_STUDENT', 0);
-	  define('UT_SUPERVISOR', 1);
-	  define('UT_SUPERUSER', 2);
+	  define('UT_STUDENT', 'student');
+	  define('UT_MODERATOR', 'moderator');
+	  define('UT_ADMINISTRATOR', 'administrator');
 ?>

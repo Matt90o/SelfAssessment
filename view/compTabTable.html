@@ -32,28 +32,28 @@
 			<div class="span12">
 				<form method="post">
 					<span class="hidden"><input type="text" name="competenceid" value="{$value.CompetenceID}"></span>
-											
+						
 					<table class="table table-striped table-condensed table-hover">
 						<caption><h6>{$value.ProofCaption}</h6></caption>
 						{loop="value.Items.ItemProofs"}
-						{if="$value.Status == 0"}<tr>
-						{elseif="$value.Status == 1"}<tr class="warning">
-						{elseif="$value.Status == 2"}<tr class="success">
-						{else}<tr class="error">	
-						{/if}
+							{if="$value.Status == 0"}<tr>
+							{elseif="$value.Status == 1"}<tr class="warning">
+							{elseif="$value.Status == 2"}<tr class="success">
+							{else}<tr class="error">	
+							{/if}
 							<td>
-							{if="$value.Status == 0"}<input type="checkbox" name="itemproof[{$value.ItemProofID}]" id="ItemProof{$value.ItemProofID}">
-							{elseif="$value.Status == 1"}<i class="icon-time"></i>
-							{elseif="$value.Status == 2"}<i class="icon-ok"></i>
-							{else}<i class="icon-remove"></i>
-							{/if}								
+								<!-- TODO: Get a Yes, No or N.A. radio group in stead of 1 input type checkbox. 3 grouped radio buttons or 3 table entries?-->
+								{if="$value.Status == 0"}<input type="checkbox" name="itemproof[{$value.ItemProofID}]" id="ItemProof{$value.ItemProofID}">
+								{elseif="$value.Status == 1"}<i class="icon-time"></i>
+								{elseif="$value.Status == 2"}<i class="icon-ok"></i>
+								{else}<i class="icon-remove"></i>
+								{/if}								
 							</td>
 							<td>{$value.ProofDescription}</td>
 						</tr>
 						{/loop}</table>
 						
 						<button type="submit" name="submitstudent" class="btn">Submit for Approval</button>
-						<button type="submit" name="submitsupervisor" class="btn">Approve Pending Items (for debug purposes)</button>
 				</form>
 			</div>
 		</div>

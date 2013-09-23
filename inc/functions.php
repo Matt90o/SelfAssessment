@@ -1,6 +1,7 @@
 <?php
 	function generate_webtool($userID) 
 	{
+		//TODO: Add tooltip functionality!
 		
 		// Define our global variables which our generate_template function will affect.
 		global 	$TPL, $RB_user,
@@ -91,33 +92,7 @@
 					$itemproofstatus = array();
 					$highest = 0;
 					$status = NULL;
-					
-					/* Get Itemlevels. 
-					foreach($item->itemLevels->itemLevel as $itemLevel) {
-						
-						if (!empty($RB_item)) {
-							foreach($RB_item as $user_item) {
-								if ( !(strcmp($user_item->competenceid, $CompetenceID) != 0) ) {
-									// Set the highest itemlevel
-									$highest = ($highest < (int)$user_item->itemlevel) ? (int)$user_item->itemlevel : $highest;
-									if ( (int)$user_item->itemlevel == $ItemLevelCounter )  {
-										$status = (int)$user_item->status;
-										break;
-									} else {
-										$status = STATUS_DEFAULT;
-									}		
-								}
-							}
-						} 				
-						$itemlevels[] = array( 
-											"ItemLevelID" => $ItemLevelCounter,
-											"LevelDescription" => (string)$itemLevel,
-											
-											"Status" => $status);
-						$ItemLevelCounter++;
-					}
-					*/
-					
+										
 					// Then we get our competence proofs and their descriptions...
 					foreach($item->itemProofs->itemProof as $itemProof) 
 					{

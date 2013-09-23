@@ -7,6 +7,7 @@
 	*/
 	
 	// Including all necessary frameworks and custom files.
+	
 	include "/inc/define.php";
 	include "/inc/rain.tpl.class.php";
 	include "/inc/rb.php";
@@ -17,7 +18,7 @@
 	 * RainTPL Configuration
 	 */
 	raintpl::configure("base_url", null );
-	raintpl::configure("tpl_dir", "templates/" );
+	raintpl::configure("tpl_dir", "view/" );
 	raintpl::configure("cache_dir", "tmp/" );
 	$TPL = new RainTPL;
 	$TPL->assign('Errormessage', '');

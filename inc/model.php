@@ -4,7 +4,7 @@
 		
 		public function dispense() 
 		{
-
+			
         }
 		
 		public function logout()
@@ -17,7 +17,12 @@
 		{
 			$_SESSION['userID'] = $this->bean->id;
 		}
-    }
+    
+		public function getview()
+		{
+			return $this->bean->usertype;
+		}
+	}
 
     class Model_Session extends RedBean_SimpleModel {
 
@@ -35,9 +40,5 @@
         	session_destroy();
 		}
     }
-	
-	class Model_Item extends RedBean_SimpleModel {
 
-    }
-	
 ?>
