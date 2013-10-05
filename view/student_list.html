@@ -1,0 +1,19 @@
+<table class="table table-striped table-condensed table-hover">
+	<caption><h3>Student List</h3></caption>
+	<thead>
+		<tr>
+			<th>Student ID</th>
+			<th>E-mail</th>
+			<th>Name</th>
+			<th>Program</th>
+		</tr>
+	</thead>
+	{loop="Students"}
+		<tr class="student"id="{$value.StudentID}">
+			<td>{$value.StudentID}</td>
+			<td>{$value.Email}</td>
+			<td>{$value.Name}</td>
+			<td>{$value.Program}</td>
+		</tr>
+	{/loop}
+</table>

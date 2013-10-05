@@ -25,13 +25,10 @@
 	// Check if the RedBean Object has an ID. If so, the user has been retrieved from the database and is logged in.
 	if($RB_user->id) {
 		// Check if the user tried to log out, if not, Invoke the controller based on the usertype.	
-		if(isset($_GET['logout'])) {
+		if(isset($_GET['logout']))
 			$RB_user->logout();
-		} else {
-			$TPL->assign('Usertype', $RB_user->usertype);
-			$TPL->assign('LoggedIn', true);
+		else
 			header('Location: ' . $RB_user->usertype . '.php');
-		}
 	} else {
 		// Assign our Login template to our $TPL object
 		$TPL->assign('Studentname', '');

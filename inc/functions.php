@@ -4,9 +4,7 @@
 		//TODO: Add tooltip functionality!
 		
 		// Define our global variables which our generate_template function will affect.
-		global 	$TPL, $RB_user,
-				$HEADER, $BODY, $FOOTER,
-				$JAVASCRIPT;
+		global 	$TPL, $HEADER, $BODY, $FOOTER, $JAVASCRIPT;
 		
 		// Variables used by the generate_template function
 		$tag = '';
@@ -14,10 +12,8 @@
 		$LastPage = array();	
 		
 		// Load user from database.
-		$user = R::load('user', $userID);
-		
-		// Assign the Student name to the template
-		$TPL->assign('Studentname', $RB_user->firstname . " " . $RB_user->lastname);
+		$user = R::findOne('user','studentid = ?', array($userID));
+
 		
 		/*
 		 *
@@ -31,11 +27,11 @@
 		 */ 
 		 
 		 // Get the correct xml to load (depending on the program the user has registered for)
-		$program = R::load('program', $RB_user->program);
+		$program = R::load('program', $user->program);
 		$xml = simplexml_load_file($program->xmlpath);
 		
 		// Get all items belonging to the user, highest itemlevel first
-		$RB_item = R::find('item', 'userid = :user_id', array(':user_id' => $RB_user->id));
+		$RB_item = R::find('item', 'userid = :user_id', array(':user_id' => $user->id));
 
 		// Let's build our Navigation bar first and put it inside an array with correct HTML mark-up.
 		// We also build our tags here to identify each competence. We need this to correctly submit the form by the user.
@@ -66,8 +62,10 @@
 			$tag = explode(" ", $compArea->compAreaTitle);
 			$newtag = '';
 			foreach($tag as $tag_explode)	$newtag .= strtolower($tag_explode);
-			
 			$tag = $newtag;
+			$total_items = 0;
+			$total_pending_items = 0;
+			$total_approved_items = 0;
 			$CompAreaCounter = 1;
 			$pages = array();
 			
@@ -84,9 +82,6 @@
 					
 					// Now we get the competence levels and their descriptions...
 					// Now we get our Item Levels in the correct order. We also have to check whether the student has checked this item and retrieve that from the database.
-					$itemlevels = array();
-					$ItemLevelCounter = 0;
-					$itemlevelstatus = array();
 					$itemproofs = array();
 					$ItemProofCounter = 0;
 					$itemproofstatus = array();
@@ -101,24 +96,30 @@
 								if ( !(strcmp($user_item->competenceid, $CompetenceID) != 0) ) {
 									if ( (int)$user_item->itemproof == $ItemProofCounter && (int)$user_item->itemlevel == $highest)  {
 										$status = (int)$user_item->status;
+										$itemvalue = (string)$user_item->itemvalue;
 										break;
 									} else {
 										$status = STATUS_DEFAULT;
+										$itemvalue = '';
 									}	
 								}
 							}
-						}						
+						}
+						if ($status == STATUS_PENDING)
+							$total_pending_items++;
+						else if ($status == STATUS_APPROVED)
+							$total_approved_items++;
 						$itemproofs[] = array(
 											"ItemProofID" => (string)$ItemProofCounter,
 											"ProofDescription" => (string)$itemProof,
-											"Status" => $status);
+											"Status" => $status,
+											"Itemvalue" => $itemvalue);
 						$ItemProofCounter++;
 					}
-										
+					$total_items += $ItemProofCounter;
 					
 					// We put all of these descriptions in one array, which we can access in our template file.
-					$items = array( "ItemLevels" => $itemlevels, 
-									"ItemProofs" => $itemproofs );
+					$items = array( "ItemProofs" => $itemproofs );
 					$caption = 'caption';
 					
 					// Now we have all of our page data, let's put this in our pages[] array alongside with descriptions belonging to this loop.					
@@ -144,15 +145,21 @@
 				}
 				
 			}
+
+			// TODO: Build progress bar
+			$progress['pending'] = round($total_pending_items / $total_items * 100);
+			$progress['approved'] = round($total_approved_items / $total_items * 100);
+			$progress['na'] = round( ($total_items-$total_approved_items-$total_pending_items) / $total_items * 100);
 			// This is the complete array with all of our data. 
 			$competences[] = array( 
 				"CompAreaTitle" => (string)$compArea->compAreaTitle,
 				"CompAreaCaption" => (string)$compArea->compAreaCaption,
-				"CompAreaID"   => $tag,
+				"CompAreaID"  => $tag,
+				"CompProgress" => $progress,
 				"Pages" => $pages
 			);
 		}
-		
+	
 		// We assign this array to our $TPL object. We will loop through this array in our template file.
 		$TPL->assign('NavigationBar', $navBar);
 		$TPL->assign('Competences', $competences);
@@ -162,6 +169,8 @@
 		$javascript .= "var MaxPageArray = " . json_encode($MaxPages) . "\n";
 		$TPL->assign('Javascript', $javascript);
 	}
+
+
 
 	function generate_html() 
 	{

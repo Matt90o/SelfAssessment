@@ -1,5 +1,3 @@
-
-
 </br>
 
 <div class="fluid-container">
@@ -14,10 +12,19 @@
             ============================================== -->            
             <div class="tab-content">
 			
-                <!-- First competence tab
+                <!-- Content based on the usertype
            		============================================== -->
-				{include="compTabItem"}
-			
+           		{if="$Usertype == student"}
+					{include="webtool_student"}
+				{elseif="$Usertype == moderator"}
+					{if="$StudentID == null"}
+						{include="student_list"}
+					{else}
+						{include="webtool_student"}
+					{/if}
+				{elseif="$Usertype == administrator"}
+					{include="content_administrator"}
+				{/if}
 			</div>
         </div>
     <div class="span1"></div>

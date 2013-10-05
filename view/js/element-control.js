@@ -4,7 +4,7 @@
 $('#myTab a').click(function (e) {
     e.preventDefault();
     $(this).tab('show');
-})
+});
 
 // Pagination of all Competences
 $('#pagination li').click(function (e) {
@@ -87,5 +87,8 @@ $('#pagination li').click(function (e) {
 		$("#" + LastPageID).removeClass('active');
 	}
 	
-	
-})
+});
+
+$(".student").click(function(){
+	window.location = "?StudentID=" + $(this).attr('id');
+});

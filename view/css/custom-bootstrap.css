@@ -11,7 +11,8 @@ body {
 }
 
 .nav-tabs, .nav-pills {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
 }
 .form-signin {
 	max-width: 300px;
@@ -48,4 +49,8 @@ body {
 }
 .label-warning, .badge-warning {
 	background-color: #FFC069;
+}
+.progress {
+	height: 21px;
+	border-radius: 0px;
 }

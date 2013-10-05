@@ -15,41 +15,45 @@
 	
 	if($RB_user->id && $RB_user->usertype == UT_STUDENT) {
 		
-		// Check if user has submitted the webtool.
-		if (isset($_POST['submitstudent'])) {
+		if(isset($_GET['logout'])) {
+			$RB_user->logout();
+		} else {
+					
+			// Assign the Student name to the template
+			$TPL->assign('Username', $RB_user->firstname . " " . $RB_user->lastname);
+			$TPL->assign('Usertype', $RB_user->usertype);
+			$TPL->assign('LoggedIn', true);
+			// Check if user has submitted the webtool.
+			if (isset($_POST['submitstudent'])) {
+					
+				if (!isset($_POST['itemproof'])) {
+					$errormessage = "Please enter itemproofs to submit.";
+				} else {
+					// Update database			
+					foreach($_POST['itemproof'] as $prooflevel => $proof) {
+						$RB_item = R::dispense('item');
+						$RB_item->userid = $RB_user->id;
+						$RB_item->competenceid = $_POST['competenceid'];
+						$RB_item->status = STATUS_PENDING; 
+						$RB_item->itemvalue = $proof;
+						$RB_item->timestamp = R::isoDate();
+						$RB_item->itemproof = $prooflevel;
+						R::store($RB_item);
+					}
 				
-			if (!isset($_POST['itemproof'])) {
-				$errormessage = "Please enter itemproofs to submit.";
-			} else {
-				// Update database			
-				foreach($_POST['itemproof'] as $prooflevel => $proof) {
-					$RB_item = R::dispense('item');
-					$RB_item->userid = $RB_user->id;
-					$RB_item->competenceid = $_POST['competenceid'];
-					$RB_item->status = STATUS_PENDING; 
-					$RB_item->itemvalue = $proof;
-					$RB_item->timestamp = R::isoDate();
-					$RB_item->itemproof = $prooflevel;
-					R::store($RB_item);
 				}
+			} 
+			// We generate our full webtool. A very large portion of the code is present in this function.
+			// It fills in our global variables needed to display the webtool.
+			generate_webtool($RB_user->studentid);
 			
-			}
-		} 
-		// We generate our full webtool. A very large portion of the code is present in this function.
-		// It fills in our global variables needed to display the webtool.
-		generate_webtool($RB_user->id);
-		
-		// We build our body in the main template from our /templates folder.
-		$HEADER = $TPL->draw('header', $return_string = true);
-		$BODY = $TPL->draw('template', $return_string = true);
-		$FOOTER = $TPL->draw('footer', $return_string = true);
-
+			// We build our body in the main template from our /templates folder.
+			$HEADER = $TPL->draw('header', $return_string = true);
+			$BODY = $TPL->draw('template', $return_string = true);
+			$FOOTER = $TPL->draw('footer', $return_string = true);
+		}
 	} else {
-		// Assign our Login template to our $TPL object
-		$TPL->assign('Studentname', '');
-		$HEADER = $TPL->draw('header', $return_string = true);
-		$BODY = $TPL->draw('login', $return_string = true);
-		$FOOTER = '';
+		header('Location: index.php');
 	}
 	
 	generate_html();
