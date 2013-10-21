@@ -64,17 +64,17 @@
 
 							<td width=25px>
 								<label class="radio inline">
-						    		<input type="radio" name="itemproof[{$value.ItemProofID}]" id="itemproof[{$value.ItemProofID}]" {if="$value.Itemvalue == yes"}checked{/if}{if="$value.Status != 0 && $Usertype == student"} disabled{/if} value="yes"> 
+						    		<input type="radio" name="itemproof[{$value.ItemProofID}]" id="itemproof[{$value.ItemProofID}]" {if="$value.Itemvalue == 'yes'"}checked{/if}{if="$value.Status != 0 && $Usertype == 'student'"} disabled{/if} value="yes"> 
 						    	</label>
 						   	</td>
 						   	<td width=25px>
 						    	<label class="radio inline">
-						    		<input type="radio" name="itemproof[{$value.ItemProofID}]" id="itemproof[{$value.ItemProofID}]" {if="$value.Itemvalue == no"}checked{/if}{if="$value.Status != 0 && $Usertype == student"} disabled{/if} value="no"> 
+						    		<input type="radio" name="itemproof[{$value.ItemProofID}]" id="itemproof[{$value.ItemProofID}]" {if="$value.Itemvalue == 'no'"}checked{/if}{if="$value.Status != 0 && $Usertype == 'student'"} disabled{/if} value="no"> 
 						    	</label>
 						   	</td>
 						   	<td width=25px>
 						   		 <label class="radio inline">
-						   		 	<input type="radio" name="itemproof[{$value.ItemProofID}]" id="itemproof[{$value.ItemProofID}]" {if="$value.Itemvalue == na"}checked{/if}{if="$value.Status != 0 && $Usertype == student"} disabled{/if} value="na"> 
+						   		 	<input type="radio" name="itemproof[{$value.ItemProofID}]" id="itemproof[{$value.ItemProofID}]" {if="$value.Itemvalue == 'na'"}checked{/if}{if="$value.Status != 0 && $Usertype == 'student'"} disabled{/if} value="na"> 
 						   		 </label>
 						   	</td>
 

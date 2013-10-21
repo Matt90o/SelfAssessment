@@ -56,6 +56,7 @@
 										 'Email' => $student->email,
 										 'Program' => (string)$RB_program->title);
 				}
+				// TODO: No students.
 				$TPL->assign('Students', $students);
 			}
 			// We build our body in the main template from our /templates folder.
