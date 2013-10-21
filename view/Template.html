@@ -14,15 +14,15 @@
 			
                 <!-- Content based on the usertype
            		============================================== -->
-           		{if="$Usertype == student"}
+           		{if="$Usertype == 'student'"}
 					{include="webtool_student"}
-				{elseif="$Usertype == moderator"}
+				{elseif="$Usertype == 'moderator'"}
 					{if="$StudentID == null"}
 						{include="student_list"}
 					{else}
-						{include="webtool_student"}
+						{include="webtool_moderator"}
 					{/if}
-				{elseif="$Usertype == administrator"}
+				{elseif="$Usertype == 'administrator'"}
 					{include="content_administrator"}
 				{/if}
 			</div>

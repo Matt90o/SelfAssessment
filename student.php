@@ -23,9 +23,10 @@
 			$TPL->assign('Username', $RB_user->firstname . " " . $RB_user->lastname);
 			$TPL->assign('Usertype', $RB_user->usertype);
 			$TPL->assign('LoggedIn', true);
+			$competenceid = '';
 			// Check if user has submitted the webtool.
 			if (isset($_POST['submitstudent'])) {
-					
+					$competenceid = $_POST['competenceid'];
 				if (!isset($_POST['itemproof'])) {
 					$errormessage = "Please enter itemproofs to submit.";
 				} else {
@@ -42,10 +43,10 @@
 					}
 				
 				}
-			} 
+			}
 			// We generate our full webtool. A very large portion of the code is present in this function.
 			// It fills in our global variables needed to display the webtool.
-			generate_webtool($RB_user->studentid);
+			generate_webtool($RB_user->studentid, $competenceid);
 			
 			// We build our body in the main template from our /templates folder.
 			$HEADER = $TPL->draw('header', $return_string = true);

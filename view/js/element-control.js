@@ -31,7 +31,6 @@ $('#pagination li').click(function (e) {
 				for ( var i = index; i < CurrentPageID.length; i++ )
 					var CurrentID = CurrentID + CurrentPageID.charAt(i);
 				
-				
 				// This case statement deals with all possible states the paginator could be in
 				switch (CurrentID) {
 					case "P":

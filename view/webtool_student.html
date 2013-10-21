@@ -64,12 +64,12 @@
 
 							<td width=25px>
 								<label class="radio inline">
-						    		<input type="radio" name="itemproof[{$value.ItemProofID}]" id="inlineCheckbox1" {if="$value.Itemvalue == yes"}checked{/if}{if="$value.Status != 0 && $Usertype == student"} disabled{/if} value="yes"> 
+						    		<input type="radio" name="itemproof[{$value.ItemProofID}]" id="itemproof[{$value.ItemProofID}]" {if="$value.Itemvalue == yes"}checked{/if}{if="$value.Status != 0 && $Usertype == student"} disabled{/if} value="yes"> 
 						    	</label>
 						   	</td>
 						   	<td width=25px>
 						    	<label class="radio inline">
-						    		<input type="radio" name="itemproof[{$value.ItemProofID}]" id="inlineCheckbox2" {if="$value.Itemvalue == no"}checked{/if}{if="$value.Status != 0 && $Usertype == student"} disabled{/if} value="no"> 
+						    		<input type="radio" name="itemproof[{$value.ItemProofID}]" id="itemproof[{$value.ItemProofID}]" {if="$value.Itemvalue == no"}checked{/if}{if="$value.Status != 0 && $Usertype == student"} disabled{/if} value="no"> 
 						    	</label>
 						   	</td>
 						   	<td width=25px>
@@ -82,9 +82,9 @@
 						</tr>
 						{/loop}
 					</table>
-					{if="$Usertype == student"}
+					{if="$Usertype == 'student'"}
 					<button type="submit" name="submitstudent" class="btn">Submit for Approval</button>
-					{elseif="$Usertype == moderator"}
+					{elseif="$Usertype == 'moderator'"}
 					<button type="submit" name="submitmoderator" class="btn">Approve all Pending Items</button>
 					{/if}
 				</form>

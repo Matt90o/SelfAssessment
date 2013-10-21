@@ -1,5 +1,5 @@
 <?php
-	function generate_webtool($userID) 
+	function generate_webtool($userID, $lastpage = '') 
 	{
 		//TODO: Add tooltip functionality!
 		
@@ -101,9 +101,11 @@
 									} else {
 										$status = STATUS_DEFAULT;
 										$itemvalue = '';
-									}	
+									}
 								}
 							}
+						} else {
+							$itemvalue = '';
 						}
 						if ($status == STATUS_PENDING)
 							$total_pending_items++;
@@ -135,10 +137,16 @@
 									"MSc" => (string)$comp->compCaption->MSc,
 									"Items" => $items
 					);
-					
 					// Now we set our last page visited. Initially this is our first Competence.
-					if ($CompAreaCounter == 1)
+					if ($CompAreaCounter == 1) {
 						$LastPage[$tag] = 1;
+					}
+					/*
+					if ($CompAreaCounter == 1 && strcmp($CompetenceID, $lastpage) != 0) {
+						$LastPage[$tag] = 1;
+					} else {
+						$LastPage[$tag] = $CompAreaCounter;
+					}*/
 					// And we up the counter.
 					$MaxPages[$tag] = $CompAreaCounter;
 					$CompAreaCounter++;

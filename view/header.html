@@ -35,14 +35,14 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="brand" href="">Self Assessment <small>{$Version}</small></a>
+						<a class="brand" href="index.php">Self Assessment <small>{$Version}</small></a>
 						{if="$LoggedIn"}
 <div class="nav-collapse collapse">
 							<ul class="nav pull-right">
 								<li><a>Logged in as {$Username}</a></li>
 								<li><a href="?logout=true">Logout</a></li>
 							</ul>
-							{if="$Usertype == moderator"}
+							{if="$Usertype == 'moderator'"}
 						    <form class="navbar-search pull-left" method="POST">
 								 <input type="text" class="search-query" placeholder="Search for student">
 							</form>

@@ -11,7 +11,7 @@
 	/*
 	 * Version Number
 	 */
-	define('VERSION_NO','v0.2');
+	define('VERSION_NO','V 1.0');
 	
 	/*
 	 * Error messages
