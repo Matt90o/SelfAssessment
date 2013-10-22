@@ -30,15 +30,36 @@
 				// TODO: Check if student exists!
 				if($RB_user->id){
 					if (isset($_POST['submitmoderator'])) {
-						// Update database
-						$pending_item = R::find('item', 'userid = :userid AND status = :status AND competenceid = :competenceid',
-						 array(':userid' => $RB_student->id, ':status' => STATUS_PENDING, ':competenceid' => $_POST['competenceid']));
-						 
-						foreach($pending_item as $current_item) {
-							$current_item->status = STATUS_APPROVED;
-							R::store($current_item);
+						$competenceid = $_POST['competenceid'];
+						foreach($_POST['itemproof'] as $prooflevel => $proof) {
+							$item = R::findOne('item', 'userid = :userid AND competenceid = :competenceid AND itemproof = :prooflevel',
+								array(':userid' => $RB_student->id, ':competenceid' => $competenceid, ':prooflevel' => $prooflevel));
+							// Remove this item from the database if it's NA and if it is in the database. Otherwise ignore all NA items.	
+							if ($item->id) {
+								if (strcmp($proof, OPTION_NA) == 0) {
+									R::trash($item);
+								} else {
+									// Item is already in DB and checked as yes or no, so approve the item in the database with given status, yes or no.
+									$item->itemvalue = $proof;
+									$item->status = STATUS_APPROVED;
+									R::store($item);
+								}
+							} else {
+								// Item does not exist in database, check if it is a new item which has to be inserted, ignore if its NA.
+								if (strcmp($proof, OPTION_NA) != 0) {
+									$RB_item = R::dispense('item');
+									$RB_item->userid = $RB_student->id;
+									$RB_item->competenceid = $competenceid;
+									$RB_item->status = STATUS_APPROVED; 
+									$RB_item->itemvalue = $proof;
+									$RB_item->timestamp = R::isoDate();
+									$RB_item->itemproof = $prooflevel;
+									R::store($RB_item);
+								}
+							}
 						}
-					} 
+					}
+						 
 					// We generate our full webtool. A very large portion of the code is present in this function.
 					// It fills in our global variables needed to display the webtool.
 					generate_webtool($_GET['StudentID']);

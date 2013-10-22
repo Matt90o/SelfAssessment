@@ -54,3 +54,11 @@ body {
 	height: 21px;
 	border-radius: 0px;
 }
+
+tr.student {
+	cursor: pointer;
+}
+
+#spanpadding{
+	padding: 0 5%;
+}

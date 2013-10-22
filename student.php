@@ -26,23 +26,22 @@
 			$competenceid = '';
 			// Check if user has submitted the webtool.
 			if (isset($_POST['submitstudent'])) {
-					$competenceid = $_POST['competenceid'];
-				if (!isset($_POST['itemproof'])) {
-					$errormessage = "Please enter itemproofs to submit.";
-				} else {
-					// Update database			
-					foreach($_POST['itemproof'] as $prooflevel => $proof) {
+				$competenceid = $_POST['competenceid'];
+				
+				// Update database			
+				foreach($_POST['itemproof'] as $prooflevel => $proof) {
+					if (strcmp($proof, OPTION_NA) != 0) {
 						$RB_item = R::dispense('item');
 						$RB_item->userid = $RB_user->id;
-						$RB_item->competenceid = $_POST['competenceid'];
+						$RB_item->competenceid = $competenceid;
 						$RB_item->status = STATUS_PENDING; 
 						$RB_item->itemvalue = $proof;
 						$RB_item->timestamp = R::isoDate();
 						$RB_item->itemproof = $prooflevel;
 						R::store($RB_item);
 					}
-				
 				}
+			
 			}
 			// We generate our full webtool. A very large portion of the code is present in this function.
 			// It fills in our global variables needed to display the webtool.

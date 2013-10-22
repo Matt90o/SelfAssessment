@@ -100,12 +100,12 @@
 										break;
 									} else {
 										$status = STATUS_DEFAULT;
-										$itemvalue = '';
+										$itemvalue = 'na';
 									}
 								}
 							}
 						} else {
-							$itemvalue = '';
+							$itemvalue = 'na';
 						}
 						if ($status == STATUS_PENDING)
 							$total_pending_items++;
