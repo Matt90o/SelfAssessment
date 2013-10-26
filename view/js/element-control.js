@@ -10,7 +10,7 @@ $('#myTab a').click(function (e) {
 $('#pagination li').click(function (e) {
 	e.preventDefault();
 	
-	var CurrentPageID = $(this).attr('id');
+	var CurrentPageID = $(this).attr('class');
 	// For example CurrentPageID = disciplinaryknowledge5
 	// For example key = disciplinaryknowledge
 	// For example LastPageArray[key] = 1

@@ -584,14 +584,15 @@
 								<itemLevel LevelID="5">I am able to defend my reformulation of the design problem</itemLevel>
 							</itemLevels>
 							<itemProofs caption="How did you achieve your competence level in reformulating design problems?">
-								<itemProof ProofID="0">I have engaged in a role-play where participants play the roles of stakeholders</itemProof>
-								<itemProof ProofID="1">I have engaged in exercises where I had to extract requirements from statements of stakeholders</itemProof>
-								<itemProof ProofID="2">I have read literature on reformulation of design problems (case studies)</itemProof>
-								<itemProof ProofID="3">I have observed the beginning of an actual design process and analysed the reformulation of the design problem</itemProof>
-								<itemProof ProofID="4">I have performed a reformulation of a design problem</itemProof>
-								<itemProof ProofID="5">I have identified a case of conflicting requirements</itemProof>
-								<itemProof ProofID="6">I have helped stakeholders identifying their functional needs</itemProof>
-								<itemProof ProofID="7">I have resolved a case of conflicting requirements</itemProof>
+								<itemProof ProofID="0">It is usually easy for me to identifying the interests of the various parties involved in the design project (i.e. ,the stakeholders)</itemProof>
+<itemProof ProofID="1">I sometimes find it difficult to explore systematically the wishes of other parties  involved in the design project</itemProof>
+<itemProof ProofID="2">I can successfully apply methods to extract technical requirements from the wishes of the various parties involved in the design project (i.e. ,the stakeholders)</itemProof>
+<itemProof ProofID="3">I can successfully apply methods to extract technical requirements from the wishes of the various parties involved in the design project (i.e. ,the stakeholders)</itemProof>
+<itemProof ProofID="4">I sometimes find it difficult to identify possible cases of conflicting requirements; i.e., cases where two or more requirements may not be implemented together</itemProof>
+<itemProof ProofID="5">I usually find it easy to resolve a case of conflicting requirements</itemProof>
+<itemProof ProofID="6">I usually find it easy to reformulate the design problem into an applicable set of technical requirements</itemProof>
+<itemProof ProofID="7">I am proficient in defending the reformulation of the design problem against involved parties</itemProof>
+
 							</itemProofs>
 						</item>
 					</items>
@@ -615,14 +616,17 @@
 								<itemLevel LevelID="5">I usually see a variety of different design solutions</itemLevel>
 							</itemLevels>
 							<itemProofs caption="How did you achieve this level of creativity?">
-								<itemProof ProofID="0">I have read about the importance of having multiple alternative approaches</itemProof>
-								<itemProof ProofID="1">I participate in brainstorm sessions</itemProof>
-								<itemProof ProofID="2">I engage in exercises with techniques to relax restrictions on creative thinking</itemProof>
-								<itemProof ProofID="3">I have read about the psychology of creative thinking</itemProof>
-								<itemProof ProofID="4">I have done exercises to apply techniques to find alternative solutions in non-technical settings</itemProof>
-								<itemProof ProofID="5">I have applied techniques to find alternative solutions in technical settings</itemProof>
-								<itemProof ProofID="6">I have successfully inspired fellow students to find non-orthodox solutions to design problems</itemProof>
-								<itemProof ProofID="7">I have applied techniques to find alternative solutions in the course of my project work</itemProof>
+								<itemProof ProofID="0">I usually have no difficulties in discovering a new and unconventional connection</itemProof>
+<itemProof ProofID="1">I know that a new and unconventional connection sometimes leads to a variation of an existing viewpoint or approach</itemProof>
+<itemProof ProofID="2">I usually find it easy to identify when some design solution is a variation of some other design solution</itemProof>
+<itemProof ProofID="3">I have heard of m ethods to search for variations to well known design solutions</itemProof>
+<itemProof ProofID="4">I know of multiple methods to search for variations to well known design solutions</itemProof>
+<itemProof ProofID="5">I sometimes find it difficult to search for variations to well known design solutions</itemProof>
+<itemProof ProofID="6">I routinely use one or more methods to search for variations to well known design solutions</itemProof>
+<itemProof ProofID="7">I am proficient in discovering different design solutions</itemProof>
+<itemProof ProofID="8">I usually find it easy to inspire fellow students to find unconventional solutions to design problems </itemProof>
+<itemProof ProofID="9">I sometimes have difficulties applying techniques to find alternative solutions in the course of my project work</itemProof>
+
 							</itemProofs>
 						</item>
 					</items>
@@ -645,17 +649,21 @@
 								<itemLevel LevelID="4">I am able to implement my own plan based on the design problem (without any guidance)</itemLevel>
 							</itemLevels>
 							<itemProofs caption="How did you achieve this competence level in implementing design plans?">
-								<itemProof ProofID="0">I keep a work diary, noting the project phase where I am</itemProof>
-								<itemProof ProofID="1">I have thought about the order of the tasks I have to do</itemProof>
-								<itemProof ProofID="2">I have revised the order of tasks I need to do because of an analysis I made</itemProof>
-								<itemProof ProofID="3">I have broke down a task in several sub tasks</itemProof>
-								<itemProof ProofID="4">I have made quantitative estimates about the length of tasks I need to do</itemProof>
-								<itemProof ProofID="5">I have analysed the external resources I need before I can do a tasks</itemProof>
-								<itemProof ProofID="6">I produce a plan and have it approved by my supervisor</itemProof>
-								<itemProof ProofID="7">I have read a book on project management</itemProof>
-								<itemProof ProofID="8">I have helped fellow students to set up their design plan</itemProof>
-								<itemProof ProofID="9">I have devised different plans and evaluate which is the best</itemProof>
-								<itemProof ProofID="10">I took a course in project management</itemProof>
+								<itemProof ProofID="0">I usually have no difficulties with implementing a given design plan that describes what tasks, in what order and how to carry out the tasks</itemProof>
+<itemProof ProofID="1">I sometimes tend to lose track with regard to the phase of the project that I am in</itemProof>
+<itemProof ProofID="2">Given a project plan, merely described as an ordered list of tasks, I am usually able to carry out these tasks</itemProof>
+<itemProof ProofID="3">Given a project plan, merely described as an unordered collection of tasks, I sometimes have difficulties in determining how to carry out these tasks</itemProof>
+<itemProof ProofID="4">In general, I have no difficulties in  breaking down a task in several sub tasks</itemProof>
+<itemProof ProofID="5">Doing the tasks in the right order is usually easy for me</itemProof>
+<itemProof ProofID="6">During the implementation of a design plan, I constantly monitor whether the original plan needs to be updated (e.g., by changing the order of tasks) </itemProof>
+<itemProof ProofID="7">I sometimes find it hard to notice when the order of tasks need to be revised</itemProof>
+<itemProof ProofID="8">I usually have no difficulties implementing my own design plan based on the design requirements, without any guidance </itemProof>
+<itemProof ProofID="9">I often underestimate the time it takes to carry out the tasks that need to be done </itemProof>
+<itemProof ProofID="10">I am usually able to correctly analyze the external resources needed to execute a task</itemProof>
+<itemProof ProofID="11">I am proficient in managing a design project </itemProof>
+<itemProof ProofID="12">I have successfully helped fellow students to set up their design plan</itemProof>
+<itemProof ProofID="12">I am usually confident in devising different plans and evaluate which is the best</itemProof>
+
 							</itemProofs>
 						</item>
 					</items>
@@ -678,13 +686,14 @@
 								<itemLevel LevelID="4">I am able to design on system level, designing the components as well</itemLevel>
 							</itemLevels>
 							<itemProofs caption="How did you achieve this competence level in working on various levels of integration?">
-								<itemProof ProofID="0">I have analysed existing artefacts at different levels of integration</itemProof>
-								<itemProof ProofID="1">I have composed a description in terms of architecture (components and their relations) for an existing artefact</itemProof>
-								<itemProof ProofID="2">I have re-designed a component of a given artefact</itemProof>
-								<itemProof ProofID="3">I have designed a system from a given set of components</itemProof>
-								<itemProof ProofID="4">I have taken a course in compositional design methods</itemProof>
-								<itemProof ProofID="5">I have derived properties of an artefact at system level from the properties of its components</itemProof>
-								<itemProof ProofID="6">I have decomposed a system level design into components in a number of different ways</itemProof>
+								<itemProof ProofID="0">I usually find it easy to distinguish between concrete (elements) and abstract (processes) levels</itemProof>
+<itemProof ProofID="1">I sometimes have difficulties identifying elements in a process level design </itemProof>
+<itemProof ProofID="2">I sometimes have difficulties integrating elements in a process level design</itemProof>
+<itemProof ProofID="3">I usually find it easy to decompose a process level design into the required elements</itemProof>
+<itemProof ProofID="4">I usually find it easy to decompose a process level design into the required elements</itemProof>
+<itemProof ProofID="5">I usually have no difficulties with analyzing existing products/systems at different levels of integration</itemProof>
+<itemProof ProofID="6">I am proficient in designing individual elements and integrating them. in a process level design</itemProof>
+
 							</itemProofs>
 						</item>
 					</items>
@@ -707,17 +716,15 @@
 								<itemLevel LevelID="4">I am able to work on research problems requiring the merge of knowledge, methods, and concepts from distinct disciplines</itemLevel>
 							</itemLevels>
 							<itemProofs caption="How did I achieve this competence level in engaging in interdisciplinary research?">
-								<itemProof ProofID="0">I have read books from other disciplines</itemProof>
-								<itemProof ProofID="1">I have taken one or more courses in other disciplines</itemProof>
-								<itemProof ProofID="2">I have done exercises that explore connections between disciplines</itemProof>
-								<itemProof ProofID="3">I have compiled notations describing parallels and differences between different disciplines</itemProof>
-								<itemProof ProofID="4">I have articulated differences in purpose and methodology between different disciplines</itemProof>
-								<itemProof ProofID="5">I have viewed my own discipline from the perspective of another discipline</itemProof>
-								<itemProof ProofID="6">I explained topics from a discipline X, different of my own, to students from my own discipline</itemProof>
-								<itemProof ProofID="7">I explained topics from a discipline X, different from my own, to students from discipline Y, different from X and different from my own</itemProof>
-								<itemProof ProofID="8">I explained topics from a discipline X, different from my own, to students from discipline X</itemProof>
-								<itemProof ProofID="9">I have worked on a design problem together with students from different disciplines</itemProof>
-								<itemProof ProofID="10">I have worked on a design problem that was not labelled with a particular disciplin</itemProof>
+								<itemProof ProofID="0">I usually find it easy to explain my design project to scholars from other disciplines</itemProof>
+<itemProof ProofID="1">I sometimes find it difficult to identify theories and methods from other disciplines that are relevant to solving my design project</itemProof>
+<itemProof ProofID="2">I sometimes have difficulties with using theories and methods from other disciplines in my own design project</itemProof>
+<itemProof ProofID="3">I am proficient in working on design problems requiring the merge of knowledge (methods and concepts) from different disciplines</itemProof>
+<itemProof ProofID="4">I sometimes have difficulties with identifying parallels and differences between different disciplines with regard to how design problems are solved</itemProof>
+<itemProof ProofID="5">I am proficient in identifying differences in the design process (its purpose and methodology) between different disciplines </itemProof>
+<itemProof ProofID="6">I sometimes reflect on my own designs from the perspective of another discipline</itemProof>
+<itemProof ProofID="7">I am usually confident to have integrated theories and methods from other disciplines in a correct manner into my design project</itemProof>
+
 							</itemProofs>
 						</item>
 					</items>
@@ -755,7 +762,16 @@
 								<itemLevel LevelID="0"> -- nothing -- </itemLevel>
 							</itemLevels>
 							<itemProofs caption="-- no text --">
-								<itemProof ProofID="0"> -- nothing -- </itemProof>
+								<itemProof ProofID="0">I know that existing knowledge is available to inspire and aid in working on a design case </itemProof>
+<itemProof ProofID="1">I know how to find information from the right design related databases</itemProof>
+<itemProof ProofID="2">I systematically make use of original publications on research to argument on my design directions</itemProof>
+<itemProof ProofID="3">When searching for original publications or inspiring designs, I usually have no difficulties in identifying the relevant search terms</itemProof>
+<itemProof ProofID="4">Comparing and analysing two different designs with the same goal, is usually easy for me</itemProof>
+<itemProof ProofID="5">I have identified existing designs as insufficient for my purpose</itemProof>
+<itemProof ProofID="6">I sometimes find it difficult to select the most relevant information to implement in my design case</itemProof>
+<itemProof ProofID="7">I sometimes find it difficult to select the most relevant information to implement in my design case</itemProof>
+<itemProof ProofID="8">I am proficient in integrating the information in a design solution or prototype</itemProof>
+
 							</itemProofs>
 						</item>
 					</items>
@@ -779,14 +795,16 @@
 								<itemLevel LevelID="5">I am able to base my design decisions on a priori considerations</itemLevel>
 							</itemLevels>
 							<itemProofs caption="How did I achieve this competence level in taking well-justified design decisions?">
-								<itemProof ProofID="0">I have read books on decision theory</itemProof>
-								<itemProof ProofID="1">I have defended design decisions against critical comments</itemProof>
-								<itemProof ProofID="2">I keep a work-diary where I log my design decisions</itemProof>
-								<itemProof ProofID="3">I routinely make a list of alternatives whenever I take a design decision</itemProof>
-								<itemProof ProofID="4">I have given design rationales for design decisions taken by others</itemProof>
-								<itemProof ProofID="5">I have helped fellow students to justify their design decisions</itemProof>
-								<itemProof ProofID="6">I have pointed out wrong decisions in the design of others on the basis of argumentation</itemProof>
-								<itemProof ProofID="7">I have re-considered design decisions on he basis of critical analysis</itemProof>
+								<itemProof ProofID="0">I am usually confident that I can identify all the decisions that were made during a design project (conscious and subconscious decisions)</itemProof>
+								<itemProof ProofID="1">Keeping track of my design decisions is sometimes difficult for me</itemProof>
+								<itemProof ProofID="2">Usually it is easy for me to see when a design decision is well-justified </itemProof>
+								<itemProof ProofID="3">I sometimes find it difficult to give a justification of a design decision in hindsight</itemProof>
+								<itemProof ProofID="4">Defending my decisions against critical comments is sometimes difficult for me</itemProof>
+								<itemProof ProofID="5">I usually have no difficulties basing my design decisions on a priori considerations</itemProof>
+								<itemProof ProofID="6">I am confident in helping fellow students to justify their design decisions</itemProof>
+								<itemProof ProofID="7">It is easy for me to point out decisions based on wrong argumentation in the design of others </itemProof>
+								<itemProof ProofID="8">I have re-considered design decisions on the basis of critical analysis</itemProof>
+
 							</itemProofs>
 						</item>
 					</items>

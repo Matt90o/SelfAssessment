@@ -87,6 +87,7 @@
 					$itemproofstatus = array();
 					$highest = 0;
 					$status = NULL;
+					$itemvalue = OPTION_NA;
 										
 					// Then we get our competence proofs and their descriptions...
 					foreach($item->itemProofs->itemProof as $itemProof) 
@@ -100,12 +101,13 @@
 										break;
 									} else {
 										$status = STATUS_DEFAULT;
-										$itemvalue = 'na';
+										$itemvalue = OPTION_NA;
 									}
 								}
 							}
 						} else {
-							$itemvalue = 'na';
+							$status = NULL;
+							$itemvalue = OPTION_NA;
 						}
 						if ($status == STATUS_PENDING)
 							$total_pending_items++;
@@ -131,10 +133,7 @@
 									"ItemTitle" => (string)$item->itemTitle,
 									"ItemCaption" => (string)$item->itemCaption,
 									"CompTitle" => (string)$comp->compTitle,
-									"LevelCaption" => (string)$item->itemLevels->attributes()->$caption,
 									"ProofCaption" => (string)$item->itemProofs->attributes()->$caption,
-									"BSc" => (string)$comp->compCaption->BSc,
-									"MSc" => (string)$comp->compCaption->MSc,
 									"Items" => $items
 					);
 					// Now we set our last page visited. Initially this is our first Competence.
@@ -167,7 +166,7 @@
 				"Pages" => $pages
 			);
 		}
-	
+		
 		// We assign this array to our $TPL object. We will loop through this array in our template file.
 		$TPL->assign('NavigationBar', $navBar);
 		$TPL->assign('Competences', $competences);

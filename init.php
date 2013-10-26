@@ -34,6 +34,7 @@
 	 * RedBeanPHP Configuration
 	 */
 	R::setup('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME, DB_USER, DB_PASSWORD);
+	R::$writer->setUseCache(true);
 	$RB_session = R::dispense('session');
 	$RB_user = R::dispense('user');
 	

@@ -2,7 +2,6 @@
 
 <div class="fluid-container">
     <div class="row-fluid">
-<!--        <div class="span1"></div>	-->
         <div class="span12" id="spanpadding">
             <!-- Tabbed navigation bar
             ================================================== -->
@@ -15,18 +14,17 @@
                 <!-- Content based on the usertype
            		============================================== -->
            		{if="$Usertype == 'student'"}
-					{include="webtool_student"}
+					{include="webtool"}
 				{elseif="$Usertype == 'moderator'"}
 					{if="$StudentID == null"}
 						{include="student_list"}
 					{else}
-						{include="webtool_moderator"}
+						{include="webtool"}
 					{/if}
 				{elseif="$Usertype == 'administrator'"}
 					{include="content_administrator"}
 				{/if}
 			</div>
         </div>
-<!--    <div class="span1"></div>	-->
 	</div>           
 </div>      

@@ -27,18 +27,22 @@
 			// Check if user has submitted the webtool.
 			if (isset($_POST['submitstudent'])) {
 				$competenceid = $_POST['competenceid'];
-				
 				// Update database			
 				foreach($_POST['itemproof'] as $prooflevel => $proof) {
 					if (strcmp($proof, OPTION_NA) != 0) {
-						$RB_item = R::dispense('item');
-						$RB_item->userid = $RB_user->id;
-						$RB_item->competenceid = $competenceid;
-						$RB_item->status = STATUS_PENDING; 
-						$RB_item->itemvalue = $proof;
-						$RB_item->timestamp = R::isoDate();
-						$RB_item->itemproof = $prooflevel;
-						R::store($RB_item);
+						
+						$item = R::findOne('item', 'userid = :userid AND competenceid = :competenceid AND itemproof = :prooflevel',
+								array(':userid' => $RB_user->id, ':competenceid' => $competenceid, ':prooflevel' => $proof));
+						if (!$item->id) {
+							$RB_item = R::dispense('item');
+							$RB_item->userid = $RB_user->id;
+							$RB_item->competenceid = $competenceid;
+							$RB_item->status = STATUS_PENDING; 
+							$RB_item->itemvalue = $proof;
+							$RB_item->timestamp = R::isoDate();
+							$RB_item->itemproof = $prooflevel;
+							R::store($RB_item);
+						}
 					}
 				}
 			
