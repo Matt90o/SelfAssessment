@@ -1,5 +1,5 @@
 <ul class="nav nav-tabs" id="myTab">
-{loop="NavigationBar"}
-	<li{if="$key == 0"} class="active"{/if}><a href="#{$value.CompAreaID}" data-toggle="tab">{$value.Title}</a></li>
+{loop="CompAreas"}
+	<li{if="$key == 0"} class="active"{/if}><a href="#{$value.CompAreaTag}" data-toggle="tab">{$value.CompAreaTitle}</a></li>
 {/loop}
 </ul>

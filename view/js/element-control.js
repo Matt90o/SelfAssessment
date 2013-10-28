@@ -10,7 +10,7 @@ $('#myTab a').click(function (e) {
 $('#pagination li').click(function (e) {
 	e.preventDefault();
 	
-	var CurrentPageID = $(this).attr('class');
+	var CurrentPageID = $(this).attr('id');
 	// For example CurrentPageID = disciplinaryknowledge5
 	// For example key = disciplinaryknowledge
 	// For example LastPageArray[key] = 1
@@ -88,6 +88,7 @@ $('#pagination li').click(function (e) {
 	
 });
 
+// This function is used when logged in as a moderator
 $(".student").click(function(){
 	window.location = "?StudentID=" + $(this).attr('id');
 });

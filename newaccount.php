@@ -59,15 +59,12 @@
 			$RB_user->email = $_POST['email'];
 			$RB_user->usertype = UT_STUDENT;
 			
-			// We will insert the program as a program_id into the database. 
-			foreach($programarray as $program) {
-				if (strcmp($program['title'],$_POST['program']) == 0) {
-					$RB_user->program = key($program) + 1;
-				}
-			}
-			
+			$RB_program = R::findOne('program', 'title = ?', array( $_POST['program'] ));
+			$RB_program->ownUser[] = $RB_user;
+
 			// Save the user to the database.
 			R::store($RB_user);
+			R::store($RB_program);
 			
 			// Draw our creation succesfull account.
 			$BODY = $TPL->draw('successful', $return_string = true);
@@ -87,6 +84,5 @@
 	
 	$HEADER = $TPL->draw('header', $return_string = true);
 	generate_html();
-	
 	
 ?>
