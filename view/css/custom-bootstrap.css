@@ -62,3 +62,6 @@ tr.student {
 #spanpadding{
 	padding: 0 35px;
 }
+.table td {
+	vertical-align: middle;
+}

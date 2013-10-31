@@ -18,34 +18,36 @@
 		if(isset($_GET['logout'])) {
 			$RB_user->logout();
 		} else {
-					
 			// Assign the Student name to the template
 			$TPL->assign('Username', $RB_user->firstname . " " . $RB_user->lastname);
 			$TPL->assign('Usertype', $RB_user->usertype);
 			$TPL->assign('LoggedIn', true);
 			$competenceid = '';
 			// Check if user has submitted the webtool.
-			if (isset($_POST['submitstudent'])) {
+			if (isset($_POST['submit'])) {
 				$competenceid = $_POST['competenceid'];
 				// Update database			
-				foreach($_POST['itemproof'] as $prooflevel => $proof) {
-					if (strcmp($proof, OPTION_NA) != 0) {
-						
-						$item = R::findOne('item', 'userid = :userid AND competenceid = :competenceid AND itemproof = :prooflevel',
-								array(':userid' => $RB_user->id, ':competenceid' => $competenceid, ':prooflevel' => $proof));
-						if (!$item->id) {
-							$RB_item = R::dispense('item');
-							$RB_item->userid = $RB_user->id;
-							$RB_item->competenceid = $competenceid;
-							$RB_item->status = STATUS_PENDING; 
-							$RB_item->itemvalue = $proof;
-							$RB_item->timestamp = R::isoDate();
-							$RB_item->itemproof = $prooflevel;
+				foreach($_POST['item'] as $ItemID => $ItemValue) {
+					// Ignore all options left NA
+					if (strcmp($ItemValue, OPTION_NA) != 0) {
+						$User_Items = $RB_user->ownUserItem;
+						foreach ($User_Items as $item) {
+							if (strcmp($item->item_id,(string)$ItemID) == 0) {
+								$RB_item = $item;
+								break;
+							}
+						}
+						if (!$RB_item->id) {
+							// Save item to database
+							$RB_item = R::load('item', $ItemID);
+							$RB_item->link('user_item',	
+							array('value' => $ItemValue, 
+								  'status' => STATUS_PENDING,
+								  'timestamp' => R::isoDate()))->user = $RB_user;
 							R::store($RB_item);
 						}
 					}
-				}
-			
+				}			
 			}
 			// We generate our full webtool. A very large portion of the code is present in this function.
 			// It fills in our global variables needed to display the webtool.
