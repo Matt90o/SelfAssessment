@@ -17,6 +17,6 @@
 	if($RB_user->id && $RB_user->usertype == UT_ADMINISTRATOR) {
 
 		// Show Admin Panel
-		echo "Hello admin, what would you like to do?";
+
 	}
 ?>

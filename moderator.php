@@ -26,35 +26,14 @@
 			if(isset($_GET['StudentID'])) {
 				$TPL->assign('StudentID',$_GET['StudentID']);
 				$RB_student = R::findOne('user', 'studentid = ?', array($_GET['StudentID']));
+				// Student is chosen to display. Build the webtool for the student.
+				// TODO: Check if student exists!
 				if($RB_user->id){
-					if (isset($_POST['submit'])) {
+					if (isset($_POST['submitmoderator'])) {
 						$competenceid = $_POST['competenceid'];
-						foreach($_POST['item'] as $ItemID => $ItemValue) {
-							
-							$Student_Items = $RB_student->ownUserItem;
-							foreach ($Student_Items as $item) {
-								if (strcmp($item->item_id,(string)$ItemID) == 0) {
-									// Student has this item
-									$RB_item = $item;
-									break;
-								}
-							}
-							if (!$RB_item->id) {
-								if (strcmp($RB_item->value, OPTION_NA) == 0) {
-									R::trash($RB_item);
-								} else {
-									// Item is already in DB and checked as yes or no, so approve the item in the database with given status, yes or no.
-									
-								}
-								// Save item to database
-								$RB_item = R::load('item', $ItemID);
-								$RB_item->link('user_item',	
-								array('value' => $ItemValue, 
-									  'status' => STATUS_PENDING,
-									  'timestamp' => R::isoDate()))->user = $RB_user;
-								R::store($RB_item);
-							}
-							
+						foreach($_POST['itemproof'] as $prooflevel => $proof) {
+							$item = R::findOne('item', 'userid = :userid AND competenceid = :competenceid AND itemproof = :prooflevel',
+								array(':userid' => $RB_student->id, ':competenceid' => $competenceid, ':prooflevel' => $prooflevel));
 							// Remove this item from the database if it's NA and if it is in the database. Otherwise ignore all NA items.	
 							if ($item->id) {
 								if (strcmp($proof, OPTION_NA) == 0) {

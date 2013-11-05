@@ -1,6 +1,8 @@
 <?php
 	function generate_webtool($studentID, $lastpage = '') 
-	{	
+	{
+		//TODO: Add tooltip functionality!
+		
 		// Define our global variables which our generate_template function will affect.
 		global 	$TPL, $HEADER, $BODY, $FOOTER, $JAVASCRIPT;
 		
@@ -10,7 +12,6 @@
 		// Load student and program from database. Based on these two factors the webtool is generated
 		$RB_student = R::findOne('user','studentid = ?', array($studentID));
 		$RB_program = $RB_student->program;
-		$User_Items = $RB_student->ownUserItem;
 	
 		$CompAreaCounter = 1;
 		// Our outer loop consists of looping through the Competence Area's
@@ -30,21 +31,13 @@
 				// In this loop all of our items will be imported into the array.
 				foreach($comp->sharedItem as $item) 
 				{
-					$Status = STATUS_DEFAULT;
-					$ItemValue = OPTION_NA;
 					// Now we get the competence levels and their descriptions...
 					// Now we get our Item Levels in the correct order. We also have to check whether the student has checked this item and retrieve that from the database.
-					foreach ($User_Items as $user_item) {
-						if (strcmp($user_item->item_id,(string)$item->id) == 0) {
-							$Status = $user_item->status;
-							$ItemValue = $user_item->value;
-							break;
-						} else {
-							$Status = STATUS_DEFAULT;
-						}
-					}
+					$ItemStatus = array();
+					$Status = STATUS_DEFAULT;
+					$ItemValue = OPTION_NA;
+										
 					// We put all of these descriptions in one array, which we can access in our template file.
-					////////////////////////////////////////////////////////////////////////////////////////////////////////TODO: TOOLTIPS IN DESCRIPTION!!!!
 					$items[] = array( "ItemID"			=> $item->id,
 									  "ItemDescription" => $item->description,
 									  "ItemStatus"		=> $Status,
@@ -54,14 +47,14 @@
 				// Now we have all of our page data, let's put this in our pages[] array alongside with descriptions belonging to this loop.
 				$CompetenceTag = $CompAreaTag . $CompetenceCounter;					
 				$pages[] = array(
-								"CompetenceTag" => $CompetenceTag,
 								"CompetenceCounter" => $CompetenceCounter,
+								"CompetenceID" => $comp->id,
+								"CompetenceTag" => $CompetenceTag,
 								"CompetenceTitle" => (string)$comp->title,
 								"CompetenceDescription" => (string)$comp->description,
 								"Items" => $items
 				);
 				// Now we set our last page visited. Initially this is our first Competence.
-				/////////////////////////////////////////////////////////////////////////////////////////////////////////TODO: LASTPAGE FIXX!!!!
 				if ($CompetenceCounter == 1) {
 					$LastPage[$CompAreaTag] = 1;
 				}
@@ -76,10 +69,11 @@
 			
 			// This is the complete array with all of our data. 
 			$CompetenceAreas[] = array( 
-				"CompAreaTag" => $CompAreaTag,
 				"CompAreaCounter" => $CompAreaCounter,
 				"CompAreaTitle" => (string)$comparea->title,
 				"CompAreaDescription" => (string)$comparea->description,
+				"CompAreaID"  => $comparea->id,
+				"CompAreaTag" => $CompAreaTag,
 				"CompProgress" => $progress,
 				"Pages" => $pages
 			);
